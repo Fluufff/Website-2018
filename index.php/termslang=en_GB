@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Terms — Flüüfff 2018 — Welcome to the Abbey!</title>
+	<meta name="keywords" content="Furry, Convention, Belgium">
+	<meta name="author" content="Niki Roo">
+	<meta name="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:title" content="Terms — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:site_name" content="Terms — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Terms — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta itemprop="name" content="Terms — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="robots" content="index,follow,noodp,noydir" />
+	<meta http-equiv="Content-Language" content="{{ app()->getLocale() }}" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Expires" content="never" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
+	<meta name="csrf-param" content="_token" />
+	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="Terms — Flüüfff 2018 — Welcome to the Abbey!">
+	<meta name="application-name" content="Terms — Flüüfff 2018 — Welcome to the Abbey!">
+	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#1d2435">
+	<!-- <title>Terms — Flüüfff 2018 — Welcome to the Abbey! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
+	<!--
+
+       This website was coded by:
+       - Nikiroo (with VIM: VI Improved)
+			 - Tach (with Atom and lots of RAM)
+			 		- Hypi (with Sublime Text, because VIM and Atom sucks)
+                                                      _
+                                                   (\( \
+                                                  `.\-.)
+                              _...._            _,-"   `-.
+\                           ,"      `-._.- -.,-"       .  \
+ \`.                      ,"                               `.
+  \ `-...__              /                           .   .:  y
+   `._     ``-...__     /                           ,"```-._/
+      `-._         ```-"                      |    /_
+          `.._                   _            ;   <_ \
+              ``-.___             `.           `-._ \ \
+                     `- <           `.             `.\/
+                         \            \     `
+
+
+                     -->
+                     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
+                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
+                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <script type="text/javascript">
+		// function toggleNoScript() {
+		// 	$(".script").removeClass("script");
+		// 	$(".noscript").addClass("invisible");
+		// 	$(".noscript-href").removeAttr("href");
+		// 	$(".noscript-href").each(function(index, e) {
+		// 		$(e).attr("href", $(e).attr("data-href"));
+		// 	});
+		// }
+	</script>
+	<!-- TODO: css switcher in function of the controller -->
+	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
+	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+
+</head>
+<body class="parallax">
+	<div class="pure-container" data-effect="pure-effect-slideAlong">
+		<input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
+		<label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+			<span class="pure-toggle-icon"></span>
+		</label>
+		<div class="pure-drawer" data-position="left">
+			<div class="pane">
+									<a href="https://2018.fluufff.org/index.php" title="Home"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+					</a>
+					<a href="https://2018.fluufff.org/index.php/register" class="signup">Register</a>
+					<div class="loginbox">
+						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+							<label class="form-label dark"><p>Your email:</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Your email..." /></label>
+							<label class="form-label dark"><p>Your password:</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
+							<input type="hidden" name="action" value="user"/>
+							<div class="vspace"></div>
+							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">I forgot my password</a>
+							<input type="submit" class="form-control btn btn-default" value="Login"/>
+						</form>
+					</div>
+									<div class="language">
+											<a href="https://2018.fluufff.org/index.php/terms?lang=fr_BE" data-lang="fr">
+							<span>Français</span>
+						</a>
+												<a href="https://2018.fluufff.org/index.php/terms?lang=nl_BE" data-lang="nl">
+							<span>Nederlands</span>
+						</a>
+										</div>
+								<a href="https://2018.fluufff.org/index.php">Home</a>												<a href="https://2018.fluufff.org/index.php/about">About</a>				<a href="https://2018.fluufff.org/index.php/attendees">Attendees</a>				<a href="https://2018.fluufff.org/index.php/staff">Staff</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers' Den</a>				<a href="https://2018.fluufff.org/index.php/events">Events</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hotel</a>				<a href="https://2018.fluufff.org/index.php/travel">Travel</a>				<a href="https://2018.fluufff.org/index.php/prices">Prices</a>				<a href="https://2018.fluufff.org/index.php/faq">Faq</a>				<a href="https://2018.fluufff.org/index.php/policies">Policies</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+			<div class="vspace"></div>
+		</div>
+
+	<div class="pure-pusher-container">
+		<div class="pure-pusher">
+			<main class="main">
+				<!--<div class='container main'> -->
+<section class="section section--padding terms">
+	<div class="container">
+		<h1>Terms</h1>
+
+	<p>These terms and conditions apply to all attendees of the convention.</p>
+
+	<h2>Registration and Payment</h2>
+	<ul>
+		<li>In order to take part in the convention, you are required to register through our online registration system. Registrations or ticket purchases through any other means are null and void</li>
+		<li>Registrations are subject to screening by registration staff. You will receive an invoice by e-mail with all necessary payment information as soon as your registration has been approved</li>
+		<li>We currently accept payments only through bank transfer</li>
+		<li>All convention fees, hotel fees, and other optional packages are due within 10 calendar days after receiving the payment information</li>
+		<li>If we do not receive proof of payment within two weeks after the payment information has been sent out, your slot is no longer guaranteed and may be cancelled</li>
+		<li>We also permit payment in maximum 3 installments. All installments have to be paid within two months or at the latest until the 15th of October, whichever comes first. If the payment is not completed on this date the booking will be cancelled without any refund</li>
+	</ul>
+
+	<h2>Delivery</h2>
+	<ul>
+		<li>An email will be sent to you with a confirmation when everything has been paid in full</li>
+		<li>You can always access the account page and print out your confirmation</li>
+	</ul>
+
+	<h2>Age Verification</h2>
+	<ul>
+		<li>Attendees must be at least 18 years old at the first day of the convention</li>
+		<li>Attendees are required to present their legal photo ID or passport at check-in time. Your ID details must match the information in our electronic records</li>
+		Note: Due to liabilities imposed on us by the rather strict youth welfare laws in Belgium, we have decided not to allow underage attendees.
+	</ul>
+
+	<h2>Cancellation/Ticket Transfer</h2>
+	<ul>
+		<li>Tickets (including all fees, extras and hotel rooms booked through us) are not refundable</li>
+		<li>However, tickets (including all extras and bookings attached to them) can be transferred. Both parties must send an e-mail to registration@fluufff.org using the e-mail they signed up with, along with their login names, and confirm the transfer. Registration staff will then update the database accordingly</li>
+		Note: Ticket transfers must be cleared by us ahead of time in all cases. Any person showing up at the convention who is not in our database will not be admitted in someone else’s name.
+		<li>In case the event is cancelled due to insufficient attendance, all payments to Flüüfff (ticket, hotel) will be refunded, with the possible exception of processing fees. Any other expenses, such as travel costs or other expenses not with Flüüfff, will not be refunded under any circumstances</li>
+	</ul>
+
+	<h2>Sponsorship</h2>
+	Sponsorship is a simple way to support the convention through a voluntary extra donation. In return, sponsors will be mentioned by name in the conbook, get a differently styled name badge, and receive a complimentary gift package.
+
+	<h2>Privacy Policy</h2>
+	<ul>
+		<li>Your data will be treated confidentially and in accordance with Belgian data protection laws</li>
+		<li>You agree that we may hand over your personal data to the management of the hotel for billing purposes</li>
+		<li>We will not disclose your data to any third parties unrelated to your business with Flüüfff, except as required by Belgian law</li>
+		<li>You agree to receive e-mails concerning your registration and payment status, as well as a few announcement e-mails related to Flüüfff</li>
+		<li>We will never send you any e-mails unrelated to Flüüfff</li>
+		Note: Please understand that – while we of course do respect your privacy – Flüüfff is not an anonymous event. You will be required to carry a name badge that serves as your admission ticket and identifies you with your nickname and country. Your nickname may be included in Flüüfff related publications such as the conbook or videos (e.g., as part of the credits, the sponsor listing, etc.).
+	</ul>
+
+	<h2>Association</h2>
+	Flüüfff ASBL is a registered Belgian Non Profit Organisation with organisation number 0662.498.716 (<a href="http://kbopub.economie.fgov.be/kbopub/zoeknummerform.html?lang=en&nummer=0662498716&actionLu=Search">see more on the Belgian Crossroads Bank for Enterprises Database</a>).
+	<br/>
+	Address:
+	<div class="address" style="padding-left: 1.5em; font-style: italic;">
+		Flüüfff, asbl
+		<br/>
+		Rue Félicien Rops, 35B, boîte 01
+		<br/>
+		1070, Anderlecht
+		<br/>
+		Belgique
+	</div>
+	<p>
+		The administrators of the NPO are Thierry Dognié, Jan Taverniers, Guillaume Poncin and Benoît Volckaert.
+	</p>
+	<p>
+		All the revenues made during the event will be entirely used in equipement or services to improve the next edition or given to charity.
+	</p>
+	<div>&nbsp;</div>
+	<p>Please contact <a href="contact@fluufff.org">contact@fluufff.org</a> for all inquiries regarding our policies and terms and conditions.</p></div>
+
+</section>
+				</main>
+				<div data-delete="true">&nbsp;</div>
+				<footer class="footer">
+						<div class="container">
+							<div class="col-md-4">
+								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
+									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								</a>
+								<address class="address">
+									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
+										Corsendonk Duinse Polders hotel
+									</a>
+									<span>Blankenberge, Belgium</span>
+									<span>31<sup>st</sup> of October to the 4<sup>th</sup> of November</span>
+								</address>
+							</div>
+							<div class="col-md-3">
+								<nav class="footer-nav">
+									<ul>
+										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/policies" title="Read through our policies">Policies</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
+									</ul>
+								</nav>
+
+								<!--<li><a href="https://2018.fluufff.org/index.php/links">Other conventions</a></li>-->
+
+						</div>
+						<div class="col-md-5">
+					      <nav class="social-nav">
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      &nbsp;&nbsp;
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      </nav>
+
+					  </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+	</div>
+	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+/*
+html {
+	overflow: hidden;
+}
+
+body {
+	overflow-y: scroll;
+	perspective: 1px;
+	transform-style: preserve-3d;
+}
+*/
+
+.parallax:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+
+.parallax {
+	transform-style: inherit;
+}
+
+/*
+	scale : 0 translateZ  = -1, else
+	1 + (translateZ * -1) / perspective
+*/
+
+.parallax.p1:before {
+	background-image: url("images/bgp.png");
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	transform: translateZ(-1px) scale(2);
+	min-height: 100%;
+}
+
+.parallax.p2:before {
+	background-image: url("images/bgp.png");
+	transform: translateZ(-2px) scale(3);
+}
+
+@media(orientation: portrait) {
+	.parallax.p1:before { backround-image: url("images/bgp-vert.png"); }
+	.parallax.p2:before { backround-image: url("images/bgp-vert.png"); }
+}
+

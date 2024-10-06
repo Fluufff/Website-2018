@@ -1,0 +1,158 @@
+/* main */
+
+.main-date {
+	display: block;
+	align-content: center;
+	text-align: center;
+	width: 600px;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: 200px;
+	margin-left: calc(50% - 300px);
+	border-radius: 20px;
+	padding: 20px;
+	height: 150px;
+}
+
+h1.logo {
+	display: inline-block;
+	background: no-repeat url("../pics/logo-light.svg");
+	background-size: contain;
+	height: 111px;
+	width: 215px;
+	margin-bottom: -14px;
+}
+
+h1.logo span {
+	display: none;
+}
+
+h3.logo {
+	color: #7A7A7A;
+	display: inline;
+}
+
+h2.welcome {
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+div.margin {
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.margin h2 {
+	margin-top: 90px;
+	margin-bottom: 45px;
+}
+
+.margin .row h2:first-child {
+	margin-top: 0;
+}
+
+@media(max-width: 460px) {
+	div.margin {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+a.noscript-href, .noscript-href a {
+	background-color: transparent !important;
+}
+
+a.noscript-href.active li, .noscript-href a.active li {
+	background-color: white;
+}
+
+/* links */
+
+.banner.text {
+	width: 100%;
+	text-align: center;
+}
+
+.banner.image {
+	height: 80px;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.small-banner.image {
+	height: 80px;
+	margin-top: 45px;
+}
+
+.big-banner.image {
+	height: 170px;
+}
+
+/* about */
+
+.minimap {
+	width: 100%;
+}
+
+.gallery.staff .lang {
+	float: right;
+}
+
+/* profile */
+
+.ui-datepicker {
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.avatar {
+	height: 200px;
+	width: auto;
+	margin: auto;
+	display: block;
+}
+
+.bio {
+	text-align: justify;
+	font-family: monospace;
+	color: grey;
+	display: block;
+	float: left;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+/* news */
+h3.news {
+	margin-bottom: 0;
+}
+
+p.signature {
+	padding-top: 1em;
+	text-align: right;
+	font-family: "Roboto Slab Bold";
+}
+
+.news-beaver {
+	max-width: 100%;
+	margin-bottom: -90px;
+}
+
+@media(max-width: 767px) {
+	.news-beaver {
+		margin-bottom: -20px;
+	}
+}
+
+
+.date {
+	font-family: "Roboto Slab Light";
+	font-weight: normal;
+	font-size: 19px;
+	margin-bottom: 70px;
+}
+
+/* Registration */
+.breadcrumb {
+	background-color: transparent;
+}

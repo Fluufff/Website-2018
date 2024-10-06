@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Regels — Flüüfff 2018 — Welkom in de abdij!</title>
+	<meta name="keywords" content="Furry, Convention, Belgium">
+	<meta name="author" content="Niki Roo">
+	<meta name="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:title" content="Regels — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:site_name" content="Regels — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Regels — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta itemprop="name" content="Regels — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="robots" content="index,follow,noodp,noydir" />
+	<meta http-equiv="Content-Language" content="{{ app()->getLocale() }}" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Expires" content="never" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
+	<meta name="csrf-param" content="_token" />
+	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="Regels — Flüüfff 2018 — Welkom in de abdij!">
+	<meta name="application-name" content="Regels — Flüüfff 2018 — Welkom in de abdij!">
+	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#1d2435">
+	<!-- <title>Regels — Flüüfff 2018 — Welkom in de abdij! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
+	<!--
+
+       This website was coded by:
+       - Nikiroo (with VIM: VI Improved)
+			 - Tach (with Atom and lots of RAM)
+			 		- Hypi (with Sublime Text, because VIM and Atom sucks)
+                                                      _
+                                                   (\( \
+                                                  `.\-.)
+                              _...._            _,-"   `-.
+\                           ,"      `-._.- -.,-"       .  \
+ \`.                      ,"                               `.
+  \ `-...__              /                           .   .:  y
+   `._     ``-...__     /                           ,"```-._/
+      `-._         ```-"                      |    /_
+          `.._                   _            ;   <_ \
+              ``-.___             `.           `-._ \ \
+                     `- <           `.             `.\/
+                         \            \     `
+
+
+                     -->
+                     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
+                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
+                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <script type="text/javascript">
+		// function toggleNoScript() {
+		// 	$(".script").removeClass("script");
+		// 	$(".noscript").addClass("invisible");
+		// 	$(".noscript-href").removeAttr("href");
+		// 	$(".noscript-href").each(function(index, e) {
+		// 		$(e).attr("href", $(e).attr("data-href"));
+		// 	});
+		// }
+	</script>
+	<!-- TODO: css switcher in function of the controller -->
+	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
+	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+
+</head>
+<body class="parallax">
+	<div class="pure-container" data-effect="pure-effect-slideAlong">
+		<input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
+		<label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+			<span class="pure-toggle-icon"></span>
+		</label>
+		<div class="pure-drawer" data-position="left">
+			<div class="pane">
+									<a href="https://2018.fluufff.org/index.php" title="Home"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+					</a>
+					<a href="https://2018.fluufff.org/index.php/register" class="signup">Registreren</a>
+					<div class="loginbox">
+						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+							<label class="form-label dark"><p>E-mailadres:</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Je e-mailadres..." /></label>
+							<label class="form-label dark"><p>Wachtwoord:</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
+							<input type="hidden" name="action" value="user"/>
+							<div class="vspace"></div>
+							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">Ik ben mijn wachtwoord vergeten</a>
+							<input type="submit" class="form-control btn btn-default" value="Login"/>
+						</form>
+					</div>
+									<div class="language">
+											<a href="https://2018.fluufff.org/index.php/pages/rules?lang=en_GB" data-lang="en">
+							<span>English</span>
+						</a>
+												<a href="https://2018.fluufff.org/index.php/pages/rules?lang=fr_BE" data-lang="fr">
+							<span>Français</span>
+						</a>
+										</div>
+								<a href="https://2018.fluufff.org/index.php">Home</a>												<a href="https://2018.fluufff.org/index.php/about">Over Flüüfff</a>				<a href="https://2018.fluufff.org/index.php/attendees">Aanwezigen</a>				<a href="https://2018.fluufff.org/index.php/staff">Staff</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers Den</a>				<a href="https://2018.fluufff.org/index.php/events">Evenementen</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hotel</a>				<a href="https://2018.fluufff.org/index.php/travel">Reisinstructies</a>				<a href="https://2018.fluufff.org/index.php/prices">Prijzen</a>				<a href="https://2018.fluufff.org/index.php/faq">Veelgestelde vragen</a>				<a href="https://2018.fluufff.org/index.php/policies">Beleid</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+			<div class="vspace"></div>
+		</div>
+
+	<div class="pure-pusher-container">
+		<div class="pure-pusher">
+			<main class="main">
+				<!--<div class='container main'> -->
+<section class="section section--padding rules">
+	<div class="container"><h1>Regels</h1>
+	<p>De volgende regels en voorwaarden gelden voor alle aanwezigen op de conventie.
+</p>
+<p>Flüüfff presenteert zich graag als een professionele conventie voor vriendelijke, respectvolle en ruimdenkende leden van de furry community en hun vrienden. Om te voorkomen dat er misverstanden ontstaan over welk gedrag algemeen aanvaardbaar is bij een evenement als Flüüfff, wordt van iedereen verwacht deze regels te volgen. Zorg dat je ze gelezen hebt en begrijpt. Alle regels gelden doorheen de volledige conventie, ook bij vroege aankomst in het hotel of bij laat vertrek.</p>
+
+<h2>Registratie en badges</h2>
+<ul>
+<li>Je moet minstens 18 jaar oud zijn op de eerste dag van de conventie.</li>
+<li>Enkel geregistreerde aanwezigen met een officiële badge, mogen de conventie betreden.</li>
+<li>Je bent verplicht de conventie badge altijd te dragen, zodat we je kunnen identificeren als een geregistreerde deelnemer.</li>
+<li>Het bijwonen van de conventie zonder geldige conventiebadge of het imiteren van een andere deelnemer door het gebruik van hun conventiebadge is niet toegestaan.</li>
+<li>Je mag je niet voordoen als medewerker van de conventie, bijvoorbeeld door het dragen van kledij of kleuren die overeenkomen met personeel, bemanning of beveiliging.</li>
+<li>Het wijzigen of verbergen van informatie op je badge (bijvoorbeeld met behulp van stickers of tekeningen) is ten strengste verboden.</li>
+<li>Overnachten in het hotel zonder een geldige hotelreservering ("ghosting") is niet toegestaan.</li>
+<li>Het helpen van buitenstaanders zonder geldige badge of helpen van buitenstaanders met het "ghosten" in het hotel is ten strengste verboden.</li>
+<li>Ga bij het verliezen van je kamersleutel onmiddellijk naar de hotelreceptie of spreek iemand aan van het Flüüfff registratie team. Flüüfff aanvaardt geen enkele aansprakelijkheid als gevolg van verloren kamersleutels.</li>
+</ul>
+
+<h2>Algemeen gedrag</h2>
+<ul>
+<li>Er wordt ten allen tijde verwacht dat je je correct gedraagt.</li>
+<li>Heb respect voor anderen.</li>
+<li>Als iemand je vraagt om te stoppen, dan STOP je. Als je gevraagd wordt om iemand met rust te laten, LAAT HEM MET RUST. Hier wordt NIET over gediscussieerd.</li>
+<li>Sommige mensen reserveren elke vorm van fysiek contact enkel voor vrienden en familie. Als je niet zeker bent of iemand wel geknuffeld wil worden vraag je het eerst. Contacteer onmiddellijk een medewerker indien je een verdachte situatie opmerkt.</li>
+<li>Je bent aansprakelijk voor eventuele schade die je aanricht aan het hotel of het materiaal van andere aanwezigen</li>
+</ul>
+
+<h2>Fursuiting</h2>
+<ul>
+<li>Verpest de magie alsjeblieft niet! Hou je fursuit hoofd op in de lobby en alle openbare plaatsen wanneer je aan het fursuiten bent. (Noodgevallen zijn natuurlijk een uitzondering!)</li>
+<li>Wees voorzichtig met fursuiters om te voorkomen dat je het kostuum beschadigt of de persoon erin verwondt.</li>
+</ul>
+
+<h2>Kleding en fatsoen</h2>
+Flüüfff wil zo tolerant en gastvrij mogelijk zijn tegenover alle deelnemers. Dit betekent dat we zeer toegeeflijk zijn zolang je hiermee geen andere deelnemers beledigt of het hen ongemakkelijk maakt. 's Avonds zijn we doorgaans iets minder streng omtrent kledingvoorschriften tegenover overdag.
+
+<ul>
+<li>Het dragen van kostuums, accessoires, of voorwerpen, gemaakt van echte pels is niet toegestaan!</li>
+<li>Het vertonen van enig soort aanstootgevende symbolen is ten strengste verboden.</li>
+<li>Naaktheid die verder gaat dan een gewone zwembroek is niet toegestaan in het openbaar.</li>
+<li>Personen met anatomisch correcte kostuums -al dan niet fursuits- moeten kleren over hun kostuum dragen. (Dezelfde regels zoals hierboven gelden.)</li>
+<li>Seksueel gedrag dat verder gaat dan louter het tonen van affectie is niet toegestaan in het openbaar.</li>
+<li>Weergave van 18+ materiaal is niet toegestaan in de publieke ruimtes van het hotel. Dit omvat (maar is niet beperkt tot): kamerborden, flyers, visitekaartjes, posters en tekeningen opgehangen aan openbare prikborden.</li>
+<li>Het openlijk tonen van fetish-materiaal is niet toegestaan in het openbaar, zelfs als het deel uitmaakt van een kostuum.</li>
+<li>Tijdens de dansen is geen bodypaint toegestaan, met uitzondering van make-up op het gelaat. Vraag toestemming aan het registratie team indien je een ander soort bodypaint wil dragen.</li>
+<li>Gebruik gezond verstand in openbare ruimtes. Elk kledingstuk, voorwerp of soortgelijke voorwerpen die de conventie en/of fandom kunnen schaden mogen niet in het openbaar worden gedragen. Als vuistregel geldt: als je denkt toestemming te zullen moeten vragen voor het openlijk dragen of gebruiken van een voorwerp, beperk het dan tot je kamer.</li>
+<li>Conventiemedewerkers behouden het recht om te bepalen of kleding en/of accessoires in strijd zijn met deze regels. Vragen met betrekking tot regels voor kleding en outfits moeten worden gericht aan het hoofd van het registratieteam.</li>
+</ul>
+
+<h2>Alcohol en drugs</h2>
+<ul>
+<li>Er wordt van je verwacht dat je verantwoord drinkt. Je wordt aansprakelijk gehouden voor alles wat je zegt en wat je doet, zelfs al ben je onder invloed.</li>
+<li>De personen die zo dronken zijn dat ze nauwelijks meer op hun benen kunnen staan kunnen mogelijks naar hun kamer worden gebracht. Indien dit niet beperkt blijft tot een enkel incident kunnen er sancties volgen.</li>
+<li>Roken of vapen (bijvoorbeeld elektronische sigaretten) zijn nergens toegelaten in het hotel. Indien je toch rookt in de kamer of in een conventieruimte zal het hotel extra kosten aanrekenen.</li>
+<li>Alcohol die buiten het hotel is aangekocht mag niet worden gedronken binnen het hoteldomein, behalve in de kamers (privé).</li>
+<li>Het bezit, de consumptie of de verkoop van illegale en/of verdovende middelen wordt niet getolereerd. Hetzelfde geldt voor het misbruik van andere stoffen zoals drugs</li>
+</ul>
+
+<h2>Algemene hotel regels</h2>
+<ul>
+<li>Eten en drinken die buiten het hotel aangekocht is, mag niet genuttigd worden binnen het hoteldomein, behalve in de kamers (privé).</li>
+<li>Voor de veiligheid van alle hotelgasten is geen roekeloos gedrag toegestaan. Wees vooral voorzichtig als je alcohol hebt gedronken.</li>
+<li>Deelnemers mogen de privéruimtes van het hotel niet betreden. Dit omvat alle backstage-zones, serviceliften, de daken, nooduitgangen en alle gebieden gemarkeerd als "Alleen personeel"</li>
+<li>Het is verboden om te knoeien met brandblusapparatuur, en in het bijzonder misbruik te maken van branddeuren of alarmen. Dit zal ernstige gevolgen hebben indien dit toch gedaan wordt. Hetzelfde geldt voor het uitschakelen van rookmelders.</li>
+<li>Breek niet opzettelijk glowsticks of soortgelijke voorwerpen die kleurend, kleverig of corrosief materiaal bevatten.</li>
+</ul>
+
+<h2>Hotelkamers en privacy</h2>
+<ul>
+<li>Er wordt verwacht dat je respectvol omgaat met de kamers en de eigendommen van het hotel. Je bent verantwoordelijk voor alle schade die je veroorzaakt.</li>
+<li>De schoonmaakdienst is verplicht om je kamer dagelijks minimaal 1 keer te bekijken.</li>
+<li>Een fooi achterlaten in plaats van een hoop rommel zou het hotelpersoneel zeker kunnen appreciëren.</li>
+<li>Je bent verplicht om je kamergenoten te vragen of het oké is om een room party te organiseren of anderen uit te nodigen.</li>
+<li>Je mag de gasten in andere kamers niet storen. Gelieve het stiller te houden na middernacht.</li>
+</ul>
+
+<h2 id="weapons">Wapens, lookalikes, en gevaarlijke objecten</h2>
+<ul>
+<li>Opgepast voor de strikte Belgische wetgeving over wapens. Niet enkel wapens zijn verboden, maar ook voorwerpen die op wapens lijken kunnen voor problemen zorgen.</li>
+<li>Alle wapens, inclusief lookalikes, replica's, gereedschap of speelgoed moeten eerst goedgekeurd worden door het hoofd van het Registratieteam.</li>
+<li>Waterpistolen, Nerf geweren en gelijkaardige voorwerpen zijn verboden binnen het hotel, behalve op de voorziene locaties die ontworpen zijn voor vooraf toegelaten evenementen van ons evenementen team. Contacteer dit team ruim op voorhand als je iets wilt regelen i.v.m. de voorwerpen die je wil gebruiken. Dergelijke evenementen worden af en toe geëvalueerd. Vermijd het raken van omstaanders of het beschadigen van eigendommen van anderen, ook al ben je buiten,</</li>
+<li>Gespeelde gevechten, zwaardvechten, vuur spuwen, of andere activiteiten die een risico inhouden voor de omstaanders of het eigendom van het hotel zijn niet toegestaan zonder uitdrukkelijke toestemming van het hoofd van de Registratie</li>
+<li>Het hoofd van de Registratie kan beslissen om je wapen bij te houden of aan te passen zodat het veiliger is. Het verwijderen van deze aanpassingen is verboden.</li>
+</ul>
+
+<h2 id="pictures">Commerciële activiteiten</h2>
+<ul>
+<li>Alle commerciële activiteiten op Flüüfff, ook de Dealers Den, vallen onder de regels hieronder.</li>
+<li>Het hoofd van de Dealers Den heeft het laatste woord inzake kwesties over de commerciële activiteiten op Flüüfff, zowel binnen als buiten de Dealers Den.</li>
+</ul>
+
+<h2>Fotografie en video</h2>
+<ul>
+<li>Door foto's en video's te maken tijdens Flüüfff, geef je ons het recht om je media te gebruiken voor de promotie van het evenement. Foto's en video's in privé kamers zijn natuurlijk een uitzondering!</li>
+<li>Flüüfff geeft je het recht om video's en foto's genomen op de conventie te gebruiken voor privé en/of non-commerciële doelen.</li>
+<li>Publicatie van foto's en/of video's in commerciële (winstmakende) media (zoals pers, televisie of andere) mag niet, tenzij er geschreven toestemming verleend is door het hoofd van het bestuur.</li>
+<li>Officiële Flüüfff pers teams mogen video's en foto's nemen in openbare ruimtes tijdens de conventie. Deze hebben als doel gebruikt te worden voor verschillende vormen van publiciteit. Door deel te nemen aan de conventie, ga je hiermee akkoord zonder hiervoor vergoed of vrijgegeven te worden. Er wordt alleen maar toestemming gevraagd indien het om materiaal gaat waar er mogelijks problemen kunnen zijn qua privacy.</li>
+<li>Fotografie in de Dealers Den, Artists' Alley en Art Show is verboden. Camera's zijn niet toegelaten!</li>
+<li>Andere regels kunnen op het moment zelf worden opgelegd voor bepaalde evenementen.</li>
+</ul>
+
+<h2>Huisdieren en andere dieren</h2>
+<ul>
+<li>Helaas laat het hotel geen huisdieren toe. Alleen diensthonden zijn toegelaten op Flüüfff, en je bent hierbij dan ook verplicht om dit vooraf bij registratie te melden.</li>
+<li>Een diensthond kan wel zorgen voor extra schoonmaakkosten bij het hotel.</li>
+</ul>
+
+<h2>Korte conclusie</h2>
+<ul>
+<li>Aarzel niet om bij twijfel een vraag te stellen, liefst nog voor de conventie start. We helpen graag met het beantwoorden van al je vragen!</li>
+<li>Tijdens de conventie wordt er niet langer gediscussieerd over bovenstaande regels. Het hoofd van de registratie zal wel ter beschikking staan om je te helpen indien je denkt dat er iets niet correct is of als je zonder reden beschuldigd wordt van het breken van een regel. Beslissingen worden steeds door het hoofd van de registratie of de leiding van de conventie genomen en zijn dan ook de definitieve beslissingen.</li>
+<li>Het hoofd van de registratie behoudt zich het recht om naar eigen inclinatie sancties op te leggen aan overtreders van deze regels of aan personen die betrokken zijn bij enig ander onaanvaardbaar gedrag. De definitie van onaanvaardbaar gedrag blijft steeds naar eigen goeddunken van het hoofd van de registratie en de conventie leiding.</li>
+<li>Sancties voor het overtreden van de regels kunnen gaan van een herinnering tot een permanente ban van de conventie.</li>
+<li>Als je problemen hebt met andere aanwezigen of met een staffmember, neem dan contact op met de registratie of één van de bestuursleden (deze staan op de website)</li>
+</ul>
+
+<p>Neem contact op met <a href="registration@fluufff.org">registration@fluufff.org</a> voor alle vragen met betrekking tot ons beleid en onze algemene voorwaarden.</p>
+<p>We hopen dat je een geweldige tijd zult beleven!</p>
+</div>
+</section>
+				</main>
+				<div data-delete="true">&nbsp;</div>
+				<footer class="footer">
+						<div class="container">
+							<div class="col-md-4">
+								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
+									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								</a>
+								<address class="address">
+									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
+										Corsendonk Duinse Polders hotel
+									</a>
+									<span>Blankenberge, Belgium</span>
+									<span>31<sup>st</sup> of October to the 4<sup>th</sup> of November</span>
+								</address>
+							</div>
+							<div class="col-md-3">
+								<nav class="footer-nav">
+									<ul>
+										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/policies" title="Read through our policies">Beleid</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
+									</ul>
+								</nav>
+
+								<!--<li><a href="https://2018.fluufff.org/index.php/links">Other conventions</a></li>-->
+
+						</div>
+						<div class="col-md-5">
+					      <nav class="social-nav">
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      &nbsp;&nbsp;
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      </nav>
+
+					  </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+	</div>
+	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+</body>
+</html>

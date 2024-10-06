@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>FAQ — Flüüfff 2018 — Welkom in de abdij!</title>
+	<meta name="keywords" content="Furry, Convention, Belgium">
+	<meta name="author" content="Niki Roo">
+	<meta name="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:title" content="FAQ — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:site_name" content="FAQ — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="FAQ — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta itemprop="name" content="FAQ — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="robots" content="index,follow,noodp,noydir" />
+	<meta http-equiv="Content-Language" content="{{ app()->getLocale() }}" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Expires" content="never" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
+	<meta name="csrf-param" content="_token" />
+	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="FAQ — Flüüfff 2018 — Welkom in de abdij!">
+	<meta name="application-name" content="FAQ — Flüüfff 2018 — Welkom in de abdij!">
+	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#1d2435">
+	<!-- <title>FAQ — Flüüfff 2018 — Welkom in de abdij! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
+	<!--
+
+       This website was coded by:
+       - Nikiroo (with VIM: VI Improved)
+			 - Tach (with Atom and lots of RAM)
+			 		- Hypi (with Sublime Text, because VIM and Atom sucks)
+                                                      _
+                                                   (\( \
+                                                  `.\-.)
+                              _...._            _,-"   `-.
+\                           ,"      `-._.- -.,-"       .  \
+ \`.                      ,"                               `.
+  \ `-...__              /                           .   .:  y
+   `._     ``-...__     /                           ,"```-._/
+      `-._         ```-"                      |    /_
+          `.._                   _            ;   <_ \
+              ``-.___             `.           `-._ \ \
+                     `- <           `.             `.\/
+                         \            \     `
+
+
+                     -->
+                     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
+                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
+                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <script type="text/javascript">
+		// function toggleNoScript() {
+		// 	$(".script").removeClass("script");
+		// 	$(".noscript").addClass("invisible");
+		// 	$(".noscript-href").removeAttr("href");
+		// 	$(".noscript-href").each(function(index, e) {
+		// 		$(e).attr("href", $(e).attr("data-href"));
+		// 	});
+		// }
+	</script>
+	<!-- TODO: css switcher in function of the controller -->
+	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
+	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+
+</head>
+<body class="parallax">
+	<div class="pure-container" data-effect="pure-effect-slideAlong">
+		<input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
+		<label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+			<span class="pure-toggle-icon"></span>
+		</label>
+		<div class="pure-drawer" data-position="left">
+			<div class="pane">
+									<a href="https://2018.fluufff.org/index.php" title="Home"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+					</a>
+					<a href="https://2018.fluufff.org/index.php/register" class="signup">Registreren</a>
+					<div class="loginbox">
+						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+							<label class="form-label dark"><p>E-mailadres:</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Je e-mailadres..." /></label>
+							<label class="form-label dark"><p>Wachtwoord:</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
+							<input type="hidden" name="action" value="user"/>
+							<div class="vspace"></div>
+							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">Ik ben mijn wachtwoord vergeten</a>
+							<input type="submit" class="form-control btn btn-default" value="Login"/>
+						</form>
+					</div>
+									<div class="language">
+											<a href="https://2018.fluufff.org/index.php/faq?lang=en_GB" data-lang="en">
+							<span>English</span>
+						</a>
+												<a href="https://2018.fluufff.org/index.php/faq?lang=fr_BE" data-lang="fr">
+							<span>Français</span>
+						</a>
+										</div>
+								<a href="https://2018.fluufff.org/index.php">Home</a>												<a href="https://2018.fluufff.org/index.php/about">Over Flüüfff</a>				<a href="https://2018.fluufff.org/index.php/attendees">Aanwezigen</a>				<a href="https://2018.fluufff.org/index.php/staff">Staff</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers Den</a>				<a href="https://2018.fluufff.org/index.php/events">Evenementen</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hotel</a>				<a href="https://2018.fluufff.org/index.php/travel">Reisinstructies</a>				<a href="https://2018.fluufff.org/index.php/prices">Prijzen</a>				<a href="https://2018.fluufff.org/index.php/faq" class="active">Veelgestelde vragen</a>				<a href="https://2018.fluufff.org/index.php/policies">Beleid</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+			<div class="vspace"></div>
+		</div>
+
+	<div class="pure-pusher-container">
+		<div class="pure-pusher">
+			<main class="main">
+				<!--<div class='container main'> -->
+
+<section class="section section--padding about-banner about-banner-7 wood-banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="title-margin">FAQ</h1>
+				<p>
+Hallo, het lijkt er op dat je enkele vragen hebt? Wel, wij hebben de antwoorden! Je kan de antwoorden op de veelgestelde vragen vinden in de paragraaf hieronder. Indien je nog andere vragen hebt kan je deze sturen naar <a href="mailto:contact@fluufff.org" title="Mail to contact@fluufff.org">contact@fluufff.org</a>. We helpen je graag verder!
+</p>			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section section--padding about-overview">
+	<div class="container">
+		<div class='row'>
+		<div class="col-md-6">
+				<div class="about-overview__item">
+			<h2 class="title-margin">Kunnen wij jullie helpen bij de conventie?</h2>
+				<p>
+				Natuurlijk! Je kan een e-mail sturen naar <a href="mailto:contact@fluufff.org">contact@fluufff.org</a> en we zullen het bekijken.
+	<br/>
+De beste manier om Flüüfff te steunen is echter om deze bij te wonen!</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Hoe kan ik betalen voor drank en extra's in het hotel?</h2>
+				<p>
+				Het hotel aanvaardt contant geld, betaalkarten en kredietkaarten (Visa).</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Heeft het hotel een parking?</h2>
+				<p>
+				Jazeker! En het is gratis voor alle aanwezigen!</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Ik ben allergisch voor bepaalde soorten voedsel, wat moet ik doen?</h2>
+				<p>
+				Laat ons dit alsjeblief weten! Bij het registreren kan je ons op de hoogte brengen van specifieke allergieën. Wij geven dit door aan het hotel en alle informatie over allergenen zal aanwezig zijn bij de buffetten.</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Ik heb slechts een zeer klein budget voor eten, wat kan ik doen?</h2>
+				<p>
+				Ontbijt en avondmaal zijn inbegrepen in de inschrijving. Er zullen twee grote buffetten per dag zijn en drank (water, fruitsap, frisdrank, wijn en bier) zijn tevens inbegrepen.
+	<br/>
+Het middagmaal is zelf te voorzien maar geen zorgen, de twee maaltijden blijven lang geserveerd en zijn behoorlijk rijkelijk.
+	<br/>
+Onze staffmembers zullen je graag helpen bij het vinden van de dichtstbijzijnde kruidenierszaken in Blankenberge zodat je "gebudgeteerde", heerlijke maaltijden kan kopen.</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Wat zijn de betalingsmogelijkheden voor de conventie?</h2>
+				<p>
+				Wij aanvaarden bankoverschrijvingen, kretiet-of debetkaarten. Indien je niet kan betalen met één van deze methodes, gelieve contact op te nemen met <a href="mailto:registration@fluufff.org">registration@fluufff.org</a></div>
+			</p>
+</div>
+
+		<div class="col-md-6">
+				<div class="about-overview__item">
+			<h2 class="title-margin">Kan ik mijn huisdier meenemen?</h2>
+				<p>
+				Helaas aanvaardt het hotel geen huisdieren.
+<br/>
+Diensthonden zijn natuurlijk wel toegelaten op het hotelterrein. Gelieve ons hierover tijdig te informeren. Wij zullen de nodige regelingen treffen met het hotel. Hou er wel rekening mee dat hiervoor bijkomende kosten kunnen opgelegd worden <span class="highlight">door het hotel</span> (extra poetsen, verplichte éénpersoonskamer). Als je ons hier tijdig over informeert helpen we je graag verder.</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Is er WiFi in het hotel?</h2>
+				<p>
+				Ja! Er is overal gratis wifi!</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Wat en waar eten we?</h2>
+				<p>
+				Ontbijt en avondmaal zijn in de prijs inbegrepen.
+	<br/>
+Ze omvatten twee grote buffets verkrijgbaar in het restaurant van het hotel.
+	<br/>
+Ontbijt wordt geserveerd tussen 7:30 en 9:30 op weekdagen en tussen 8:00 en 10:00 in het weekend.
+	<br/>
+Het avondmaal wordt geserveerd tussen 18:00 en 19:30</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Ik ben vegetariër of veganist, is dit een probleem?</h2>
+				<p>
+				Natuurlijk niet! Zorg er gewoon voor dat je dit tijdens de registratie meldt. Elke maaltijd in het hotel zal vegetarische en veganistische alternatieven bieden.</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Kan ik in schijven betalen?</h2>
+				<p>
+				Ja, je kan in maximum 3 schijven betalen. Je eerste betaling moet ten minste 100€ bedragen. Je laatste betaling moet aankomen ten laatste 2 maanden na goedkeuring van de registratie.</div>
+			</p>
+				<div class="about-overview__item">
+			<h2 class="title-margin">Ik zou graag eens een ander restaurant proberen.</h2>
+				<p>
+				Geen probleem! Blankenberge is een behoorlijke toeristische trekpleister met genoeg winkels en restaurants. Vraag gerust onze staffmembers of het hotelpersoneel om advies en zij zullen je op weg helpen.</div>
+			</p>
+</div>
+
+
+</div>
+</div>
+</section>
+				</main>
+				<div data-delete="true">&nbsp;</div>
+				<footer class="footer">
+						<div class="container">
+							<div class="col-md-4">
+								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
+									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								</a>
+								<address class="address">
+									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
+										Corsendonk Duinse Polders hotel
+									</a>
+									<span>Blankenberge, Belgium</span>
+									<span>31<sup>st</sup> of October to the 4<sup>th</sup> of November</span>
+								</address>
+							</div>
+							<div class="col-md-3">
+								<nav class="footer-nav">
+									<ul>
+										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/policies" title="Read through our policies">Beleid</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
+									</ul>
+								</nav>
+
+								<!--<li><a href="https://2018.fluufff.org/index.php/links">Other conventions</a></li>-->
+
+						</div>
+						<div class="col-md-5">
+					      <nav class="social-nav">
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      &nbsp;&nbsp;
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      </nav>
+
+					  </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+	</div>
+	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+</body>
+</html>

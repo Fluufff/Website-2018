@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Tarifs — Flüüfff 2018 — En route pour l'abbaye !</title>
+	<meta name="keywords" content="Furry, Convention, Belgium">
+	<meta name="author" content="Niki Roo">
+	<meta name="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:title" content="Tarifs — Flüüfff 2018 — En route pour l'abbaye !" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:site_name" content="Tarifs — Flüüfff 2018 — En route pour l'abbaye !" />
+	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Tarifs — Flüüfff 2018 — En route pour l'abbaye !" />
+	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta itemprop="name" content="Tarifs — Flüüfff 2018 — En route pour l'abbaye !" />
+	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="robots" content="index,follow,noodp,noydir" />
+	<meta http-equiv="Content-Language" content="{{ app()->getLocale() }}" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Expires" content="never" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
+	<meta name="csrf-param" content="_token" />
+	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="Tarifs — Flüüfff 2018 — En route pour l'abbaye !">
+	<meta name="application-name" content="Tarifs — Flüüfff 2018 — En route pour l'abbaye !">
+	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#1d2435">
+	<!-- <title>Tarifs — Flüüfff 2018 — En route pour l'abbaye ! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
+	<!--
+
+       This website was coded by:
+       - Nikiroo (with VIM: VI Improved)
+			 - Tach (with Atom and lots of RAM)
+			 		- Hypi (with Sublime Text, because VIM and Atom sucks)
+                                                      _
+                                                   (\( \
+                                                  `.\-.)
+                              _...._            _,-"   `-.
+\                           ,"      `-._.- -.,-"       .  \
+ \`.                      ,"                               `.
+  \ `-...__              /                           .   .:  y
+   `._     ``-...__     /                           ,"```-._/
+      `-._         ```-"                      |    /_
+          `.._                   _            ;   <_ \
+              ``-.___             `.           `-._ \ \
+                     `- <           `.             `.\/
+                         \            \     `
+
+
+                     -->
+                     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
+                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
+                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <script type="text/javascript">
+		// function toggleNoScript() {
+		// 	$(".script").removeClass("script");
+		// 	$(".noscript").addClass("invisible");
+		// 	$(".noscript-href").removeAttr("href");
+		// 	$(".noscript-href").each(function(index, e) {
+		// 		$(e).attr("href", $(e).attr("data-href"));
+		// 	});
+		// }
+	</script>
+	<!-- TODO: css switcher in function of the controller -->
+	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
+	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+
+</head>
+<body class="parallax">
+	<div class="pure-container" data-effect="pure-effect-slideAlong">
+		<input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
+		<label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+			<span class="pure-toggle-icon"></span>
+		</label>
+		<div class="pure-drawer" data-position="left">
+			<div class="pane">
+									<a href="https://2018.fluufff.org/index.php" title="Accueil"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+					</a>
+					<a href="https://2018.fluufff.org/index.php/register" class="signup">Inscription</a>
+					<div class="loginbox">
+						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+							<label class="form-label dark"><p>Email :</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Votre email..." /></label>
+							<label class="form-label dark"><p>Mot de passe :</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
+							<input type="hidden" name="action" value="user"/>
+							<div class="vspace"></div>
+							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">Mot de passe oublié</a>
+							<input type="submit" class="form-control btn btn-default" value="Login"/>
+						</form>
+					</div>
+									<div class="language">
+											<a href="https://2018.fluufff.org/index.php/prices?lang=en_GB" data-lang="en">
+							<span>English</span>
+						</a>
+												<a href="https://2018.fluufff.org/index.php/prices?lang=nl_BE" data-lang="nl">
+							<span>Nederlands</span>
+						</a>
+										</div>
+								<a href="https://2018.fluufff.org/index.php">Accueil</a>												<a href="https://2018.fluufff.org/index.php/about">À propos</a>				<a href="https://2018.fluufff.org/index.php/attendees">Participants</a>				<a href="https://2018.fluufff.org/index.php/staff">L'équipe</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers' Den</a>				<a href="https://2018.fluufff.org/index.php/events">Programme</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hôtel</a>				<a href="https://2018.fluufff.org/index.php/travel">Accès</a>				<a href="https://2018.fluufff.org/index.php/prices" class="active">Tarifs</a>				<a href="https://2018.fluufff.org/index.php/faq">FAQ</a>				<a href="https://2018.fluufff.org/index.php/policies">Règlement</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+			<div class="vspace"></div>
+		</div>
+
+	<div class="pure-pusher-container">
+		<div class="pure-pusher">
+			<main class="main">
+				<!--<div class='container main'> -->
+<section class="section section--padding about-banner about-banner-6 wood-banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="title-margin">Tarifs</h1>
+				<p>
+Les inscriptions ferment le <em class="highlight">1<sup>er</sup> Octobre</em>, soit quasiment un mois avant la convention. Tous les paiements devront être complétés avant cette date ou votre inscription sera annulée. Les tickets à la journée, cependant, pourront être achetés jusqu'au <em class="highlight">24 Octobre</em>, soit jusqu'à une semaine avant. Faites tout de même attention de vous inscrire dès que possible afin que l'équipe puisse préparer vos badges et imprimer suffisamment de livrets de convention.
+</p>			</div>
+		</div>
+	</div>
+</section>
+<section class="section section--padding about-overview">
+	<div class="container">
+		<div class='row'>
+			<div class='col-md-6'>
+				<h2 class="title-margin">Paiement</h2>
+				<p>
+Au moment de la création de votre compte, vous aurez 10 jours pour effectuer un premier paiement d'au moins 100€. Il vous est offert la possibilité de payer en 3 fois : le paiement total devra alors être effectué <em class="highlight">dans les 2 mois</em> suivant votre inscription.
+</p>			</div>
+		</div>
+	</div>
+</section>
+<section class="section section--padding about-banner wood-banner about-banner--nomobile">
+	<div class="container">
+		<div class="row">
+			<div class='col-md-6'>
+				<h2 class="title-margin">Pack résidentiel</h2>
+				<p>
+Le ticket résidentiel comprend l'accès à la convention et les espaces communs du 31 Octobre jusqu'au 4 Novembre, un badge et un livret de convention.
+</p>
+<p>
+Nous avons aussi pris la décision de vous rendre la vie plus facile et nous avons donc négocié pour vous un buffet pour le petit déjeuner et un buffet pour le souper (boissons et nourriture à volonté !). Histoire que vous ayez le plein d'énergie pour faire la fête et des <i>hugs</i> !
+</p>			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section section--padding about-overview">
+	<div class="container">
+		<div class='row'>
+			<div class='col-md-12'>
+				<h2 class="title-margin">Tarifs</h2>
+				<p>
+Avant que vous n'achetiez vos tickets, nous vous recommandons de jeter un œil au <a href="https://fluufff.org/wip/index.php/events">programme</a>.
+</p>				<div class="travel-section">
+<h3 class="title-margin">Tickets résidentiels</h3>
+<div class="row">
+<div class="col-md-6">
+<p>
+	Une option pour venir un jour en moins est aussi proposée. Le jour exclus par cette option est le mercredi 31 Octobre, ce qui vous permet de réduire le prix final de 70€.
+</p>
+</div>
+</div>
+<div class="table-responsive table-prices">
+<table class="table --table-striped">
+	<thead>
+		<tr>
+			<td>Période</td>
+			<td>Prix/personne</td>
+			<td>Description</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Avant le 1<sup>er</sup> Juin 2018</td>
+			<td>320€</td>
+			<td>Hôtel + Petit déjeuner et Souper + frais de Convention</td>
+		</tr>
+		<tr>
+			<td>À partir du 1<sup>er</sup> Juin 2018</td>
+			<td>330€</td>
+			<td>Hôtel + Petit déjeuner et Souper + frais de Convention</td>
+		</tr>
+		<tr>
+			<td>Sponsor</td>
+			<td>+30€</td>
+			<td>Options supplémentaires contenant : T-shirt gratuit + une surprise (+ toute notre gratitude merci, merci, merci !)</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<div class="travel-section">
+<h3 class="title-margin">Tickets non résidentiels</h3>
+<div class="row">
+<div class="col-md-6">
+<p>
+Les tickets non résidentiels seront aussi disponibles. Ils donnent l'accès à la convention et les zones communes pour le(s) jour(s) choisi(s) à partir de 10:00 jusqu'au dernier évènement programmé pour la journée, tard le soir.
+</p>
+<p>
+Attention les tickets non-résidentiels ne comprennent pas de petit-déjeuner, de déjeuner et de dîner. Vous pouvez toutefois faire une réservation à l'hôtel. Pour plus d'information à ce sujet, <a href="https://www.corsendonkhotels.com/fr/clubs/duinse-polders/corsendonk-duinse-polders-resto-bar/">visitez le site de l'hôtel</a>
+</p>
+</div>
+</div>
+<div class="table-responsive table-prices">
+<table class="table --table-striped">
+	<thead>
+		<tr>
+			<td>31/10</td>
+			<td>1/11</td>
+			<td>2/11</td>
+			<td>3/11</td>
+			<td>Tous les jours</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>21€</td>
+			<td>27€</td>
+			<td>27€</td>
+			<td>27€</td>
+			<td>102€ (+Dimanche gratuit)</td>
+		</tr>
+	</tbody>
+</table>
+</div></div>			</div>
+		</div>
+	</div>
+</section>
+<section class="section section--padding about-banner wood-banner about-banner--nomobile">
+	<div class="container">
+		<div class="row">
+			<div class='col-md-6'>
+				<h2 class="title-margin">Check-in/out Info</h2>
+				<p>
+Le mecredi 31 Octobre, vous pourrez vous enregistrer pour votre chambre à partir de 15:30.
+</p>
+<p>
+Le dernier jour, le 4 Novembre, le check-out se fera jusqu'à 12:00 au plus tard.
+</p>			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section section--padding about-overview">
+	<div class="container">
+		<div class='row'>
+			<div class='col-md-6'>
+				<h2 class="title-margin">Méthodes de paiement</h2>
+				<p>
+Pour cette édition, nous avons mis en place le système de paiement en ligne d'Ingenico ; il vous permet de payer en toute sécurité par carte de crédit (VISA, Mastercard), carde de débit (Bancontact, Maestro) et par transfert bancaire.
+</p>
+<p>
+<em class="highlight">Si votre banque vous propose les transferts bancaires, n'oubliez pas de mentionner la communication afin que nous puissions vous identifier.</em>
+</p>
+<p>
+En cas de problème pendant l'inscription, veuillez contacter <a href="mailto:registration@fluufff.org">l'équipe des inscriptions</a> et ils s'occuperont de vous trouver une solution.
+</p>			</div>
+		</div>
+	</div>
+</section>
+				</main>
+				<div data-delete="true">&nbsp;</div>
+				<footer class="footer">
+						<div class="container">
+							<div class="col-md-4">
+								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
+									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								</a>
+								<address class="address">
+									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
+										Corsendonk Duinse Polders hotel
+									</a>
+									<span>Blankenberge, Belgium</span>
+									<span>31<sup>st</sup> of October to the 4<sup>th</sup> of November</span>
+								</address>
+							</div>
+							<div class="col-md-3">
+								<nav class="footer-nav">
+									<ul>
+										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/policies" title="Lire nos termes et conditions.">Règlement</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/faq" title="Lire notre FAQ.">FAQ</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/contact" title="Vous avez des questions? Posez-les leur!">Contact</a></li>
+									</ul>
+								</nav>
+
+								<!--<li><a href="https://2018.fluufff.org/index.php/links">Autres conventions</a></li>-->
+
+						</div>
+						<div class="col-md-5">
+					      <nav class="social-nav">
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      &nbsp;&nbsp;
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      </nav>
+
+					  </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+	</div>
+	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+</body>
+</html>

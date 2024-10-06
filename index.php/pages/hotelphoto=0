@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Hotel — Flüüfff 2018 — Welkom in de abdij!</title>
+	<meta name="keywords" content="Furry, Convention, Belgium">
+	<meta name="author" content="Niki Roo">
+	<meta name="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:title" content="Hotel — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:site_name" content="Hotel — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Hotel — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta itemprop="name" content="Hotel — Flüüfff 2018 — Welkom in de abdij!" />
+	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="robots" content="index,follow,noodp,noydir" />
+	<meta http-equiv="Content-Language" content="{{ app()->getLocale() }}" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Expires" content="never" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
+	<meta name="csrf-param" content="_token" />
+	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="Hotel — Flüüfff 2018 — Welkom in de abdij!">
+	<meta name="application-name" content="Hotel — Flüüfff 2018 — Welkom in de abdij!">
+	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#1d2435">
+	<!-- <title>Hotel — Flüüfff 2018 — Welkom in de abdij! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
+	<!--
+
+       This website was coded by:
+       - Nikiroo (with VIM: VI Improved)
+			 - Tach (with Atom and lots of RAM)
+			 		- Hypi (with Sublime Text, because VIM and Atom sucks)
+                                                      _
+                                                   (\( \
+                                                  `.\-.)
+                              _...._            _,-"   `-.
+\                           ,"      `-._.- -.,-"       .  \
+ \`.                      ,"                               `.
+  \ `-...__              /                           .   .:  y
+   `._     ``-...__     /                           ,"```-._/
+      `-._         ```-"                      |    /_
+          `.._                   _            ;   <_ \
+              ``-.___             `.           `-._ \ \
+                     `- <           `.             `.\/
+                         \            \     `
+
+
+                     -->
+                     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
+                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
+                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <script type="text/javascript">
+		// function toggleNoScript() {
+		// 	$(".script").removeClass("script");
+		// 	$(".noscript").addClass("invisible");
+		// 	$(".noscript-href").removeAttr("href");
+		// 	$(".noscript-href").each(function(index, e) {
+		// 		$(e).attr("href", $(e).attr("data-href"));
+		// 	});
+		// }
+	</script>
+	<!-- TODO: css switcher in function of the controller -->
+	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
+	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+
+</head>
+<body class="parallax">
+	<div class="pure-container" data-effect="pure-effect-slideAlong">
+		<input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
+		<label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+			<span class="pure-toggle-icon"></span>
+		</label>
+		<div class="pure-drawer" data-position="left">
+			<div class="pane">
+									<a href="https://2018.fluufff.org/index.php" title="Home"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+					</a>
+					<a href="https://2018.fluufff.org/index.php/register" class="signup">Registreren</a>
+					<div class="loginbox">
+						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+							<label class="form-label dark"><p>E-mailadres:</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Je e-mailadres..." /></label>
+							<label class="form-label dark"><p>Wachtwoord:</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
+							<input type="hidden" name="action" value="user"/>
+							<div class="vspace"></div>
+							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">Ik ben mijn wachtwoord vergeten</a>
+							<input type="submit" class="form-control btn btn-default" value="Login"/>
+						</form>
+					</div>
+									<div class="language">
+											<a href="https://2018.fluufff.org/index.php/pages/hotel?lang=en_GB" data-lang="en">
+							<span>English</span>
+						</a>
+												<a href="https://2018.fluufff.org/index.php/pages/hotel?lang=fr_BE" data-lang="fr">
+							<span>Français</span>
+						</a>
+										</div>
+								<a href="https://2018.fluufff.org/index.php">Home</a>												<a href="https://2018.fluufff.org/index.php/about">Over Flüüfff</a>				<a href="https://2018.fluufff.org/index.php/attendees">Aanwezigen</a>				<a href="https://2018.fluufff.org/index.php/staff">Staff</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers Den</a>				<a href="https://2018.fluufff.org/index.php/events">Evenementen</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hotel</a>				<a href="https://2018.fluufff.org/index.php/travel">Reisinstructies</a>				<a href="https://2018.fluufff.org/index.php/prices">Prijzen</a>				<a href="https://2018.fluufff.org/index.php/faq">Veelgestelde vragen</a>				<a href="https://2018.fluufff.org/index.php/policies">Beleid</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+			<div class="vspace"></div>
+		</div>
+
+	<div class="pure-pusher-container">
+		<div class="pure-pusher">
+			<main class="main">
+				<!--<div class='container main'> -->
+	<section class="section section--padding about-banner about-banner-4 hotel-intro wood-banner">
+		<div class="container">
+			<div class="col-md-8">
+				<h1>Hotel</h1>
+					<p>Gelegen net buiten de stad, genesteld tussen duinen en het <span class='highlight'>Zeebos</span> (een aangenaam park tussen bos en zee), ligt de <span class='highlight'>Duinse Polders</span>. Dit is een kalm en goed voorzien vakantiecentrum met een vlot bereikbare toegang.</p>
+	<p>Het heeft een minigolf park, een grote speeltuin, verschillende sportvelden (tennis, volleybal en basketbal) en is toevallig slechts honderd meter verwijderd van <span class='highlight'>SeaLife</span>, een park gewijd aan onderwaterfauna.<div class="vspace"></div></p>
+	<p>Het hotel heeft een gratis parking en voorziet gratis wifi op zowel de kamer als in de evenementshallen.</p>
+			<a href="https://2018.fluufff.org/index.php/travel" class="discover-button">
+				Reisgids			</a>
+
+			<a href="https://2018.fluufff.org/index.php/prices" class="discover-button">
+				Prijslijst			</a>
+			</div>
+		</div>
+	</section>
+
+
+			<section class="section  pictureslider">
+				<div id="hotel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=1#hotel"><li  data-target="#hotel" data-slide-to="0"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=2#hotel"><li  data-target="#hotel" data-slide-to="1"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=3#hotel"><li  data-target="#hotel" data-slide-to="2"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=4#hotel"><li  data-target="#hotel" data-slide-to="3"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=5#hotel"><li  data-target="#hotel" data-slide-to="4"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=6#hotel"><li  data-target="#hotel" data-slide-to="5"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=7#hotel"><li  data-target="#hotel" data-slide-to="6"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=8#hotel"><li  data-target="#hotel" data-slide-to="7"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=9#hotel"><li  data-target="#hotel" data-slide-to="8"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=10#hotel"><li  data-target="#hotel" data-slide-to="9"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=11#hotel"><li  data-target="#hotel" data-slide-to="10"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=12#hotel"><li  data-target="#hotel" data-slide-to="11"></li></a>
+<a class="noscript-href tab_title" href="https://2018.fluufff.org/index.php/pages/hotel?photo=13#hotel"><li class="active" data-target="#hotel" data-slide-to="12"></li></a>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-1.jpg" alt="Beach View 3" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-2.jpg" alt="Beach View 5" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-3.jpg" alt="Beach View 8" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-4.jpg" alt="Hotel 11" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-5.jpg" alt="Hotel 8" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-6.jpg" alt="Hotel Outside 13" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-7.jpg" alt="Hotel Outside 18" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-8.jpg" alt="Hotel Outside 21" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-9.jpg" alt="Hotel Outside 27" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-10.jpg" alt="Hotel Outside 2" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-11.jpg" alt="Hotel Outside 8" /></div>
+<div class="item"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-12.jpg" alt="Hotel Outside 9" /></div>
+<div class="item active"><img src="https://2018.fluufff.org/assets/pics/hotel/hotel-13.jpg" alt="Resto 3" /></div>
+					</div>
+					<a class="noscript-href left carousel-control" href="?photo=12#hotel" role="button" data-slide="prev" data-href="#hotel"><span class="center-icon icon-left" aria-hidden="true"></span><span class='sr-only'>Previous picture</span></a>
+					<a class="noscript-href right carousel-control" href="?photo=14#hotel" role="button" data-slide="next" data-href="#hotel"><span class="center-icon icon-right" aria-hidden="true"></span><span class='sr-only'>Next picture</span></a>
+				</div>
+			</section>
+			<section class="section section--padding hotel-bedrooms wood-banner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="travel-section">
+								<h2 class="title-margin">Slaapkamers</h2>
+								<p>
+Voor deze tweede editie bieden we tweepersoonskamers aan. Deze zijn gelegen in verschillende vleugels nabij de conventieruimte.
+	</p>
+	<p>Elke kamer heeft twee afzonderlijke bedden, een televisie en een afzonderlijke badkamer. Sommige kamers hebben een mini frigo.</p>							</div>
+							<div class="travel-section">
+								<h2 class="title-margin">Ontbijt en avondmaal</h2>
+								<p>
+Het residentiële pakket geeft je toegang tot het ontbijt en avondmaalbuffet in het restaurant van het hotel. Als je een dagticket hebt en je wil deelnemen aan het buffet kan je deze reserveren aan de hotelbalie. Voor meer informatie en prijzen, zie de <a href="https://www.corsendonkhotels.com/fr/clubs/duinse-polders/" target="_blank">hotel website</a>.</p>
+	<p>Het avondmaalbuffet heeft een saladebar en een zelfbediening waar je de keuze hebt tussen twee of drie warme maaltijden plus dessertbuffet. Er zijn tevens verschillende softdrinks voorzien, alsook een tap voor tafelbier, witte en rode wijn.
+</p><br/>
+	<p>Openingsuren van de buffetten:</p>							</div>
+						</div>
+						<div class="col-md-6">
+							<img class="map-image" src="https://2018.fluufff.org/assets/pics/map2.png" alt="hotel plan">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+								<table class='table'>
+		<thead>
+			<tr>
+				<th>Datum</th>
+				<th>Ontbijt</th>
+				<th>Avondmaal</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>31 oktober</td>
+				<td>&mdash;</td>
+				<td>18:00 tot 19:30</td>
+			</tr>
+			<tr>
+				<td>1 november</td>
+				<td>7:30 tot 9:30</td>
+				<td>18:00 tot 19:30</td>
+			</tr>
+			<tr>
+				<td>2 november</td>
+				<td>7:30 tot 9:30</td>
+				<td>18:00 tot 19:30</td>
+			</tr>
+			<tr>
+				<td>3 november</td>
+				<td>08:00 tot 10:00</td>
+				<td>18:00 tot 19:30</td>
+			</tr>
+			<tr>
+				<td>4 november</td>
+				<td>08:00 tot 10:00</td>
+				<td>&mdash;</td>
+			</tr>
+		</th>
+	</table>						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="sfeer">
+				<img alt='buffet' src='https://2018.fluufff.org/assets/pics/hotel/buffet.jpg' />
+			</section>
+				</main>
+				<div data-delete="true">&nbsp;</div>
+				<footer class="footer">
+						<div class="container">
+							<div class="col-md-4">
+								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
+									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								</a>
+								<address class="address">
+									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
+										Corsendonk Duinse Polders hotel
+									</a>
+									<span>Blankenberge, Belgium</span>
+									<span>31<sup>st</sup> of October to the 4<sup>th</sup> of November</span>
+								</address>
+							</div>
+							<div class="col-md-3">
+								<nav class="footer-nav">
+									<ul>
+										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/policies" title="Read through our policies">Beleid</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
+									</ul>
+								</nav>
+
+								<!--<li><a href="https://2018.fluufff.org/index.php/links">Other conventions</a></li>-->
+
+						</div>
+						<div class="col-md-5">
+					      <nav class="social-nav">
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      &nbsp;&nbsp;
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      </nav>
+
+					  </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+	</div>
+	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+</body>
+</html>

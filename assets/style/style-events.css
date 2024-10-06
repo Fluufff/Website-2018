@@ -1,0 +1,63 @@
+/*Style for the event page*/
+table.eventTable tbody td{
+  border-collapse: collapse;
+  border: 1px rgba(255,255,255,0.3) solid;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.3em;
+}
+
+/* Hour col */
+table.eventTable tbody tr td:first-of-type:not(.IsEvent), table.eventTable thead td{
+  background-color: rgba(255,255,255,0.5);
+  color: #444;
+}
+
+table.eventTable tbody tr:nth-child(n+2) td:first-of-type:not(.IsEvent) span {
+	vertical-align: top;
+}
+table.eventTable tbody tr:nth-child(n+2) td:first-of-type:not(.IsEvent) span {
+	display: inline-block;
+	margin-top: -1em;
+	margin-bottom: auto;
+}
+
+table.eventTable tbody tr td:first-of-type{
+  border-right-width: 2px;
+  border-right-style: dotted;
+}
+
+table.eventTable thead td:first-of-type {
+  visibility: hidden;
+}
+
+td.IsEvent {
+  background-color: rgba(255,255,255,0.3) !important;
+  border-right-width: 0 !important;
+}
+
+p.eventTime {
+  font-style: italic;
+  font-size: 75%;
+}
+
+table.eventTable a, table.eventTable a:hover {
+  color: inherit;
+}
+
+/* Increase readability between descriptions */
+h4 {
+    font-weight: bold;
+    margin-top: 1.2em;
+}
+
+.table-responsive{
+
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px){
+  .table-responsive{
+    overflow: auto;
+  }
+}

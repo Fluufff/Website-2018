@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Events — Flüüfff 2018 — Welcome to the Abbey!</title>
+	<meta name="keywords" content="Furry, Convention, Belgium">
+	<meta name="author" content="Niki Roo">
+	<meta name="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:title" content="Events — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta property="og:site_name" content="Events — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Events — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta itemprop="name" content="Events — Flüüfff 2018 — Welcome to the Abbey!" />
+	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
+	<meta name="robots" content="index,follow,noodp,noydir" />
+	<meta http-equiv="Content-Language" content="{{ app()->getLocale() }}" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Expires" content="never" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
+	<meta name="csrf-param" content="_token" />
+	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="Events — Flüüfff 2018 — Welcome to the Abbey!">
+	<meta name="application-name" content="Events — Flüüfff 2018 — Welcome to the Abbey!">
+	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#1d2435">
+	<!-- <title>Events — Flüüfff 2018 — Welcome to the Abbey! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
+	<!--
+
+       This website was coded by:
+       - Nikiroo (with VIM: VI Improved)
+			 - Tach (with Atom and lots of RAM)
+			 		- Hypi (with Sublime Text, because VIM and Atom sucks)
+                                                      _
+                                                   (\( \
+                                                  `.\-.)
+                              _...._            _,-"   `-.
+\                           ,"      `-._.- -.,-"       .  \
+ \`.                      ,"                               `.
+  \ `-...__              /                           .   .:  y
+   `._     ``-...__     /                           ,"```-._/
+      `-._         ```-"                      |    /_
+          `.._                   _            ;   <_ \
+              ``-.___             `.           `-._ \ \
+                     `- <           `.             `.\/
+                         \            \     `
+
+
+                     -->
+                     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
+                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
+                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <script type="text/javascript">
+		// function toggleNoScript() {
+		// 	$(".script").removeClass("script");
+		// 	$(".noscript").addClass("invisible");
+		// 	$(".noscript-href").removeAttr("href");
+		// 	$(".noscript-href").each(function(index, e) {
+		// 		$(e).attr("href", $(e).attr("data-href"));
+		// 	});
+		// }
+	</script>
+	<!-- TODO: css switcher in function of the controller -->
+	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
+	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+
+</head>
+<body class="parallax">
+	<div class="pure-container" data-effect="pure-effect-slideAlong">
+		<input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
+		<label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+			<span class="pure-toggle-icon"></span>
+		</label>
+		<div class="pure-drawer" data-position="left">
+			<div class="pane">
+									<a href="https://2018.fluufff.org/index.php" title="Home"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+					</a>
+					<a href="https://2018.fluufff.org/index.php/register" class="signup">Register</a>
+					<div class="loginbox">
+						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+							<label class="form-label dark"><p>Your email:</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Your email..." /></label>
+							<label class="form-label dark"><p>Your password:</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
+							<input type="hidden" name="action" value="user"/>
+							<div class="vspace"></div>
+							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">I forgot my password</a>
+							<input type="submit" class="form-control btn btn-default" value="Login"/>
+						</form>
+					</div>
+									<div class="language">
+											<a href="https://2018.fluufff.org/index.php/events?lang=fr_BE" data-lang="fr">
+							<span>Français</span>
+						</a>
+												<a href="https://2018.fluufff.org/index.php/events?lang=nl_BE" data-lang="nl">
+							<span>Nederlands</span>
+						</a>
+										</div>
+								<a href="https://2018.fluufff.org/index.php">Home</a>												<a href="https://2018.fluufff.org/index.php/about">About</a>				<a href="https://2018.fluufff.org/index.php/attendees">Attendees</a>				<a href="https://2018.fluufff.org/index.php/staff">Staff</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers' Den</a>				<a href="https://2018.fluufff.org/index.php/events" class="active">Events</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hotel</a>				<a href="https://2018.fluufff.org/index.php/travel">Travel</a>				<a href="https://2018.fluufff.org/index.php/prices">Prices</a>				<a href="https://2018.fluufff.org/index.php/faq">Faq</a>				<a href="https://2018.fluufff.org/index.php/policies">Policies</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+			<div class="vspace"></div>
+		</div>
+
+	<div class="pure-pusher-container">
+		<div class="pure-pusher">
+			<main class="main">
+				<!--<div class='container main'> -->
+<section class="section section--padding about-banner about-banner-3 event-intro wood-banner">
+	<div class="container">
+		<div class="col-md-8">
+		<h1>Events</h1>
+		<p>
+		What is a monastery without a Breviary? Here you can find a list of all the scheduled events. As our fine monastery is still in construction, said list might change before the convention starts. This is merely an early version.
+	</p>
+	<p>
+		Do not worry if some evil demon stole your smartphone! Any last-minute changes will be displayed on a white board in the Bar Area. Going there is also a good excuse to drink some sanctified beer with your fellow pilgrims.
+	</p>
+			<!--<a href="https://2018.fluufff.org/index.php/attendees" class="discover-button">
+				Discover the attendees
+			</a>-->
+	</div>
+	</div>
+</section>
+
+<section class="section section--padding event-suggest ">
+	<div class="container">
+		<div class="col-md-6">
+		<h2>
+			Suggest an event!		</h2>
+		<p>
+		If you’d like to do more than just praying and want to preach yourself? Feel free to contact event@fluufff.org to propose any events, animations or panels you have in mind.
+	</p>		</div>
+	</div>
+</section>
+<section class="section section--padding events wood-banner">
+	<div class="container">
+		<h2>Current planning</h2>
+		<div class="events__table">
+<h3>October 31</h3>
+</div><div class="table-responsive"><table class="table eventTable">
+<thead>
+<tr>
+<th>Time</th>
+<th >Mainstage</th>
+<th >Event Room</th>
+<th >Fursuit Lounge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="eventTime:1540987200"><span>12:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="9" colspan="1" class="IsEvent" id="eventId:5">
+<a href="#description:3">Baggage Room</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1540989000"><span>12:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1540990800"><span>13:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="10" colspan="1" class="IsEvent" id="eventId:8">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1540992600"><span>13:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1540994400"><span>14:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1540996200"><span>14:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1540998000"><span>15:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1540999800"><span>15:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541001600"><span>16:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541003400"><span>16:30</span></td>
+<td rowspan="1" colspan="1" class="IsEvent" id="eventId:1">
+<a href="#description:13">Icebreaking</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541005200"><span>17:00</span></td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:2">
+<a href="#description:16">Opening Ceremony</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541007000"><span>17:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541008800"><span>18:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:6">
+<a href="#description:3">Baggage Room</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541010600"><span>18:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541012400"><span>19:00</span></td>
+<td rowspan="3" colspan="3" class="IsEvent" id="eventId:51">
+<a href="#description:35">Dinner</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541014200"><span>19:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541016000"><span>20:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541017800"><span>20:30</span></td>
+<td rowspan="5" colspan="1" class="IsEvent" id="eventId:3">
+<a href="#description:1">Abbey Murder Party</a>
+</td>
+<td rowspan="8" colspan="1" class="IsEvent" id="eventId:80">
+<a href="#description:19">Spooky VideoGames</a>
+</td>
+<td rowspan="9" colspan="1" class="IsEvent" id="eventId:9">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541019600"><span>21:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541021400"><span>21:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541023200"><span>22:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541025000"><span>22:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541026800"><span>23:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541028600"><span>23:30</span></td>
+<td rowspan="5" colspan="1" class="IsEvent" id="eventId:4">
+<a href="#description:23">Werewolves 1</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541030400"><span>0:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541032200"><span>0:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541034000"><span>1:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541035800"><span>1:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+				 <div><h3>November 1</h3>
+</div><div class="table-responsive"><table class="table eventTable">
+<thead>
+<tr>
+<th>Time</th>
+<th >Mainstage</th>
+<th >Event Room</th>
+<th >Fursuit Lounge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="eventTime:1541057400"><span>7:30</span></td>
+<td rowspan="3" colspan="3" class="IsEvent" id="eventId:58">
+<a href="#description:36">Breakfast</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541059200"><span>8:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541061000"><span>8:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541062800"><span>9:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541064600"><span>9:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541066400"><span>10:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="4" colspan="1" class="IsEvent" id="eventId:81">
+<a href="#description:37">Photoshoot</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541068200"><span>10:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541070000"><span>11:00</span></td>
+<td rowspan="4" colspan="1" class="IsEvent" id="eventId:11">
+<a href="#description:26">Soundchecks and Audio System Design</a>
+</td>
+<td rowspan="14" colspan="1" class="IsEvent" id="eventId:19">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541071800"><span>11:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541073600"><span>12:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541075400"><span>12:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541077200"><span>13:00</span></td>
+<td rowspan="8" colspan="1" class="IsEvent" id="eventId:12">
+<a href="#description:4">Brew It Yourself</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541079000"><span>13:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541080800"><span>14:00</span></td>
+<td rowspan="6" colspan="1" class="IsEvent" id="eventId:16">
+<a href="#description:27">Dealers Den</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541082600"><span>14:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541084400"><span>15:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541086200"><span>15:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541088000"><span>16:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541089800"><span>16:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541091600"><span>17:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541093400"><span>17:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541095200"><span>18:00</span></td>
+<td rowspan="3" colspan="3" class="IsEvent" id="eventId:62">
+<a href="#description:35">Dinner</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541097000"><span>18:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541098800"><span>19:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541100600"><span>19:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541102400"><span>20:00</span></td>
+<td rowspan="4" colspan="1" class="IsEvent" id="eventId:13">
+<a href="#description:24">Werewolves 2</a>
+</td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:17">
+<a href="#description:28">Gameboy Rom Hacking</a>
+</td>
+<td rowspan="11" colspan="1" class="IsEvent" id="eventId:20">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541104200"><span>20:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541106000"><span>21:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541107800"><span>21:30</span></td>
+<td rowspan="4" colspan="1" class="IsEvent" id="eventId:18">
+<a href="#description:29">Creative Writing</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541109600"><span>22:00</span></td>
+<td rowspan="7" colspan="1" class="IsEvent" id="eventId:14">
+<a href="#description:14">Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541111400"><span>22:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541113200"><span>23:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541115000"><span>23:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541116800"><span>0:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541118600"><span>0:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541120400"><span>1:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+				 <div><h3>November 2</h3>
+</div><div class="table-responsive"><table class="table eventTable">
+<thead>
+<tr>
+<th>Time</th>
+<th colspan="2">Mainstage</th>
+<th >Event Room</th>
+<th >Fursuit Lounge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="eventTime:1541143800"><span>7:30</span></td>
+<td rowspan="4" colspan="4" class="IsEvent" id="eventId:77">
+<a href="#description:36">Breakfast</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541145600"><span>8:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541147400"><span>8:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541149200"><span>9:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541151000"><span>9:30</span></td>
+<td rowspan="1" colspan="2" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541152800"><span>10:00</span></td>
+<td rowspan="1" colspan="2" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541154600"><span>10:30</span></td>
+<td rowspan="4" colspan="1" class="IsEvent" id="eventId:27">
+<a href="#description:18">Snack Exchange</a>
+</td>
+<td rowspan="4" colspan="1" class="IsEvent" id="eventId:21">
+<a href="#description:30">FurGiants Rampage</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541156400"><span>11:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="14" colspan="1" class="IsEvent" id="eventId:31">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541158200"><span>11:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541160000"><span>12:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541161800"><span>12:30</span></td>
+<td rowspan="1" colspan="2" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541163600"><span>13:00</span></td>
+<td rowspan="3" colspan="2" class="IsEvent" id="eventId:22">
+<a href="#description:10">Fursuit Games</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541165400"><span>13:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541167200"><span>14:00</span></td>
+<td rowspan="6" colspan="1" class="IsEvent" id="eventId:28">
+<a href="#description:27">Dealers Den</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541169000"><span>14:30</span></td>
+<td rowspan="1" colspan="2" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541170800"><span>15:00</span></td>
+<td rowspan="1" colspan="2" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541172600"><span>15:30</span></td>
+<td rowspan="3" colspan="2" class="IsEvent" id="eventId:23">
+<a href="#description:31">Tea Party</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541174400"><span>16:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541176200"><span>16:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541178000"><span>17:00</span></td>
+<td rowspan="2" colspan="2" class="IsEvent" id="eventId:24">
+<a href="#description:41">DDR</a>
+</td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:29">
+<a href="#description:2">Art Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541179800"><span>17:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541181600"><span>18:00</span></td>
+<td rowspan="3" colspan="4" class="IsEvent" id="eventId:63">
+<a href="#description:35">Dinner</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541183400"><span>18:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541185200"><span>19:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541187000"><span>19:30</span></td>
+<td rowspan="1" colspan="2" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541188800"><span>20:00</span></td>
+<td rowspan="4" colspan="2" class="IsEvent" id="eventId:25">
+<a href="#description:21">Talent Show</a>
+</td>
+<td rowspan="3" colspan="1" class="IsEvent" id="eventId:30">
+<a href="#description:32">Advanced Fursuit Animatronics R&D Panel</a>
+</td>
+<td rowspan="12" colspan="1" class="IsEvent" id="eventId:32">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541190600"><span>20:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541192400"><span>21:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541194200"><span>21:30</span></td>
+<td rowspan="5" colspan="1" class="IsEvent" id="eventId:82">
+<a href="#description:38">VideoGame Tournament 1</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541196000"><span>22:00</span></td>
+<td rowspan="8" colspan="2" class="IsEvent" id="eventId:26">
+<a href="#description:6">Dance</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541197800"><span>22:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541199600"><span>23:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541201400"><span>23:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541203200"><span>0:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541205000"><span>0:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541206800"><span>1:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541208600"><span>1:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+				 <div><h3>November 3</h3>
+</div><div class="table-responsive"><table class="table eventTable">
+<thead>
+<tr>
+<th>Time</th>
+<th >Mainstage</th>
+<th colspan="3">Event Room</th>
+<th >Fursuit Lounge</th>
+<th >Outdoors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="eventTime:1541232000"><span>8:00</span></td>
+<td rowspan="4" colspan="6" class="IsEvent" id="eventId:73">
+<a href="#description:36">Breakfast</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541233800"><span>8:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541235600"><span>9:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541237400"><span>9:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541239200"><span>10:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541241000"><span>10:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="3" colspan="1" class="IsEvent" id="eventId:84">
+<a href="#description:40">MotorFurs Meet</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541242800"><span>11:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+<td rowspan="14" colspan="1" class="IsEvent" id="eventId:43">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541244600"><span>11:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541246400"><span>12:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" class="IsEvent" id="eventId:45">
+<a href="#description:12">Group Picture</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541248200"><span>12:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:46">
+<a href="#description:11">Fursuit Walk</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541250000"><span>13:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541251800"><span>13:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541253600"><span>14:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="6" colspan="1" class="IsEvent" id="eventId:39">
+<a href="#description:27">Dealers Den</a>
+</td>
+<td rowspan="8" colspan="2" class="IsEvent" id="eventId:41">
+<a href="#description:15">MTG</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541255400"><span>14:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541257200"><span>15:00</span></td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:33">
+<a href="#description:9">Electronics Talk</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541259000"><span>15:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541260800"><span>16:00</span></td>
+<td rowspan="3" colspan="1" class="IsEvent" id="eventId:34">
+<a href="#description:8">Electronics Paws-On</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541262600"><span>16:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541264400"><span>17:00</span></td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:40">
+<a href="#description:2">Art Lounge</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541266200"><span>17:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541268000"><span>18:00</span></td>
+<td rowspan="3" colspan="6" class="IsEvent" id="eventId:67">
+<a href="#description:35">Dinner</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541269800"><span>18:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541271600"><span>19:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541273400"><span>19:30</span></td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:35">
+<a href="#description:22">Waffles & Chocolates</a>
+</td>
+<td rowspan="1" colspan="3" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541275200"><span>20:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="6" colspan="1" class="IsEvent" id="eventId:42">
+<a href="#description:15">MTG</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="10" colspan="1" class="IsEvent" id="eventId:44">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541277000"><span>20:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541278800"><span>21:00</span></td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:36">
+<a href="#description:33">Animal Noises Quizz</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541280600"><span>21:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541282400"><span>22:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:37">
+<a href="#description:34">Guess the Story</a>
+</td>
+<td rowspan="4" colspan="1" class="IsEvent" id="eventId:83">
+<a href="#description:39">VideoGame Tournament 2</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541284200"><span>22:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541286000"><span>23:00</span></td>
+<td rowspan="6" colspan="1" class="IsEvent" id="eventId:85">
+<a href="#description:42">Dead Dog Party</a>
+</td>
+<td rowspan="6" colspan="2" class="IsEvent" id="eventId:38">
+<a href="#description:7">DDR Night</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541287800"><span>23:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541289600"><span>0:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541291400"><span>0:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541293200"><span>1:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541295000"><span>1:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+				 <div><h3>November 4</h3>
+</div><div class="table-responsive"><table class="table eventTable">
+<thead>
+<tr>
+<th>Time</th>
+<th >Mainstage</th>
+<th >Event Room</th>
+<th >Fursuit Lounge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="eventTime:1541318400"><span>8:00</span></td>
+<td rowspan="4" colspan="3" class="IsEvent" id="eventId:70">
+<a href="#description:36">Breakfast</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541320200"><span>8:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541322000"><span>9:00</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541323800"><span>9:30</span></td>
+</tr>
+<tr>
+<td id="eventTime:1541325600"><span>10:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541327400"><span>10:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541329200"><span>11:00</span></td>
+<td rowspan="1" colspan="1" class="IsEvent" id="eventId:47">
+<a href="#description:5">Closing Ceremony</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="2" colspan="1" class="IsEvent" id="eventId:49">
+<a href="#description:25">Fursuit Lounge</a>
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541331000"><span>11:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541332800"><span>12:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="6" colspan="1" class="IsEvent" id="eventId:48">
+<a href="#description:3">Baggage Room</a>
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541334600"><span>12:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541336400"><span>13:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541338200"><span>13:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541340000"><span>14:00</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+<tr>
+<td id="eventTime:1541341800"><span>14:30</span></td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+<td rowspan="1" colspan="1" id="eventId:">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+				 <div>		</div>
+	</div>
+</section>
+<section class="section section--padding wood-banner-only-bottom">
+	<div class="container">
+			<h2>Events description</h2>
+				<div class="event__item">
+				<h3 id="description:1">Abbey Murder Party</h3>
+				<p>
+				Strange things happens on Halloween and our Abbey hasn’t been spared this year. Something terrible, horrible, has cursed our community! Do you think you can solve the mystery?			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:32">Advanced Fursuit Animatronics R&D Panel</h3>
+				<p>
+				Take a sneak-peak into Floere’s laboratory and see what the maniacal marten has been up to. Learn about next-generation costume technology and the very bumpy road that stretches from idea to reality. We’ve allowed him to demonstrate some of his early technological failures, but he’s not actually supposed to experiment on the audience (much). Attend at your own risk!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:33">Animal Noises Quizz</h3>
+				<p>
+				Guess which animal is making the sound.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:2">Art Lounge</h3>
+				<p>
+				Let’s get creative! Grab your favorite materials and join other fellow artists time for you to finish a drawing, complete a commission or just to share a couple of funny stories and a silly doodle.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:3">Baggage Room</h3>
+				<p>
+				The event room will be available to drop off your luggage before check in starts. A staff member will be there to keep an eye on them. The baggage room will be locked during dinner so make sure to take everything you need with you beforehand. 			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:36">Breakfast</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:4">Brew It Yourself</h3>
+				<p>
+				Belgian beer is famous, everyone knows that! But did you know you can make some at home? In this panel you can follow the whole brewing of a typical Belgian brown beer with explanations, hands on parts and degustation.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:5">Closing Ceremony</h3>
+				<p>
+				Time for a big hug, some more thank you’s and a warm goodbye with the hope of seeing you again next year!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:29">Creative Writing</h3>
+				<p>
+				Also known as "Hortus Conclusus Story Circle"
+Bring your stories, fanfics, poems, songs, love letters, or ransom notes! All genres are welcome to this friendly, moderated story circle. Read your work to the group and receive optional feed-back. Alternatively, bring your writing-related questions for discussion. Beginners are welcome. (Readers, please bring six hard copies you don't mind getting scribbled on.)			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:6">Dance</h3>
+				<p>
+				Party Hard at the dance where the DJ’s will be playing a nice selection of music.
+Whether you like House, Hardcore, Drum and bass, Dubstep or Techno, our DJ’s play what you like!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:41">DDR</h3>
+				<p>
+				Dance Dance furEvolution!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:7">DDR Night</h3>
+				<p>
+				Dance Dance Revolution all night woohooo! Come and wiggle the best you can on the beat of that typical japanese arcade game.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:42">Dead Dog Party</h3>
+				<p>
+				Don't miss the celebration of the end of the convention!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:27">Dealers Den</h3>
+				<p>
+				Buy, sell and commission art from furry artists.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:35">Dinner</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:8">Electronics Paws-On</h3>
+				<p>
+				Now you have seen what is possible with electronics if you have been to the Electronics Talk panel but you want to make something cool already. You can at the Paws-on electronics panel! Learn how to tinker around with electronics and before you know it your suit will not only look cool but also keep you cool! 			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:9">Electronics Talk</h3>
+				<p>
+				Electronics at a furry convention? Yes! You can do a lot of neat things with lights and motors in your suit, but be sure to do it safely! This panel will teach you all you need to know for integrating electronics into your fursuit in a safe (non-flammable) way!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:30">FurGiants Rampage</h3>
+				<p>
+				Furries destroy everything, especially when they're giant and they enter into a tiny cardboard city.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:10">Fursuit Games</h3>
+				<p>
+				A fun and complete challenge for any fursuiter. Come demonstrate your skills and put on a show for the attendees of the convention in a variety of fursuit games. (This event requires you to register to participate).			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:25">Fursuit Lounge</h3>
+				<p>
+				A must-go for all fursuiters after some warm and exhausting exercise. There you can rest and cool off while the fans take care of your suit.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:11">Fursuit Walk</h3>
+				<p>
+				Right after the group picture, we invite you for a relaxing walk through the little path lost in the dunes. Amazing view on the pier and the sea and a good occasion to take pictures! Once again, check the communication channels in case the weather doesn’t agree with us.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:28">Gameboy Rom Hacking</h3>
+				<p>
+				A presentation about how we can change the text in an actual gameboy game
+This is a technical talk, but no previous knowledge is needed.
+			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:12">Group Picture</h3>
+				<p>
+				A must go in every furry convention. Picture will be taken in the dunes in front of the hotel like last year unless the Belgian weather betrays us, of course. Keep an eye on the communication boards and channels for any changes.
+
+UPDATE:
+We gather at 12am at the parking of the hotel (near the Motorfurs Meet) and leave the hotel to cross the street.
+Staff members will be leading and closing the convoy with high visibility jackets.
+We take the picture at 12h30 in the dunes, same spot than last year.
+You are free afterwards to head back to the hotel or continue in the dunes for the Fursuit Walk!
+In order to keep things easy and safe, we ask all the fursuiters to be at the front of the convoy.
+We'll walk at a calm pace, be careful when crossing the street, make sure to wait for a sign from the staff! :)
+
+See you all soon at the PARKING at 12AM!!!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:34">Guess the Story</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:13">Icebreaking</h3>
+				<p>
+				A friendly little “get together” in the main room to get to know each other a bit better and give ourselves a kickstart for the convention!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:14">Lounge</h3>
+				<p>
+				A chill event for all the people who like to lean back with a nice cocktail and have a nice conversation with some groovy beats in the background.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:40">MotorFurs Meet</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:15">MTG</h3>
+				<p>
+				You've probably heard of Magic: The Gathering before. Likely, you've even played it. But perhaps you've heard the legends, whispers about the 'joke' sets from long ago.  Let's tap 5, cast our Time Warps, and blast back to the past for an UNGLUED, UNHINGED and UNSTABLE cube event! Cards will be provided, so no worries if you never got to build yourself an un-deck.
+
+Afterwards, hug your favourite fluffy commander and meet your friends in raw thaumaturgical combat during the EDH COMMANDER night! Bring your strongest/most casual deck and beat your fellow convention goers for BRAGGING RIGHTS and a small bit of prize support.
+
+Entrance fee: Free!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:16">Opening Ceremony</h3>
+				<p>
+				The official opening of the second edition of Flüüfff!
+At this event you will get to know all about the convention, the staff and our theme!
+			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:37">Photoshoot</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:18">Snack Exchange</h3>
+				<p>
+				Interested in tasting food from all over the world? Then the snack exchange is your type of event! Bring your own favourite snack from your country and let other people have a taste! (This event requires you to register your snack so we know what people will bring).			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:26">Soundchecks and Audio System Design</h3>
+				<p>
+				Have you ever wondered what in god's name an audio technician is doing when he is testing a system?
+Well now we have a panel that explains just that, If you like music and want to know more about the technical side of it, this is a panel for you!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:19">Spooky VideoGames</h3>
+				<p>
+				We stay in the spook vibe with a videogame evening dedicated to horror games. This is your jumpscare rendez-vous!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:20">Stranded Sea Mammals</h3>
+				<p>
+				Belgian coast is very peculiar, it’s not rare to find stranded mammals especially when you compare to the French and the Dutch coast. Come learn which marine mammals you can find near the coast, why some get stranded, how it helps us to care more about our seas and oceans and how to rescue cute baby seals.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:21">Talent Show</h3>
+				<p>
+				Do you have a special talent that you’d like to show? You can at the Talent show!
+Whether it’s singing, dancing, playing an instrument, telling jokes or any other talent, you join the Talent Show and amaze the audience with your own special talent! (This event requires you to register So we know what acts there are and what materials you need to perform). You can <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQ40Zl42HE1aueSHg6sSpOK1QjCC5ed5CIEKBHqEUjL784wg/viewform">register for the talent show</a>.
+			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:31">Tea Party</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:38">VideoGame Tournament 1</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:39">VideoGame Tournament 2</h3>
+				<p>
+							</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:22">Waffles & Chocolates</h3>
+				<p>
+				Two delicious Belgian treats! This panel will give you a taste of what Belgian waffles and chocolate are all about!			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:23">Werewolves 1</h3>
+				<p>
+				First session of a unique Werewolves game scenario that will leave you shivering in fear and anticipation. Slots will be limited to ensure a tense yet cosy ambience but a second session will be organized the next day if you miss this one.			</p>
+				</div>
+				<div class="event__item">
+				<h3 id="description:24">Werewolves 2</h3>
+				<p>
+				Second session of Werewolves as mentioned earlier with another original spooktastic scenario.			</p>
+				</div>
+				</div>
+</section>
+				</main>
+				<div data-delete="true">&nbsp;</div>
+				<footer class="footer">
+						<div class="container">
+							<div class="col-md-4">
+								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
+									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								</a>
+								<address class="address">
+									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
+										Corsendonk Duinse Polders hotel
+									</a>
+									<span>Blankenberge, Belgium</span>
+									<span>31<sup>st</sup> of October to the 4<sup>th</sup> of November</span>
+								</address>
+							</div>
+							<div class="col-md-3">
+								<nav class="footer-nav">
+									<ul>
+										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/policies" title="Read through our policies">Policies</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
+										<li><a href="https://2018.fluufff.org/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
+									</ul>
+								</nav>
+
+								<!--<li><a href="https://2018.fluufff.org/index.php/links">Other conventions</a></li>-->
+
+						</div>
+						<div class="col-md-5">
+					      <nav class="social-nav">
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      &nbsp;&nbsp;
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      &nbsp;
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      </nav>
+
+					  </div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+	</div>
+	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+</body>
+</html>

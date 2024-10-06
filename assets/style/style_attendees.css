@@ -1,0 +1,246 @@
+/*.attendeesList{ }
+.attendee{ min-height: 200px; margin-top: 10px; margin-right: 10px; float:left; width:128px; background:#2f862f; color:whitesmoke; }
+.attendee.sponsor{background:#ceae3a; }
+.attendee.staff{ }
+.attendee .fursuit, .attendee .sponsor{display:none;}
+.attendee .images{ position:relative; overflow: hidden; float:left; width:128px; height:128px;  }
+	.attendee .images .av{ z-index: 1; max-width:128px; height:128px; display:block; margin: 0 auto;  }
+	.attendee .images .country{  top:0; right:0; }
+	.attendee.fursuiter .images .ico.fursuit{ display:block; bottom:0; right:0; }
+	.attendee.staff .images .ico.bonus{ display:block; bottom:0; left:0; }
+	.attendee .images .ico{position: absolute; z-index: 2; width:18px; height:18px;}
+.attendee .nick{ clear:both; padding: 5px; word-wrap: break-word; font-size: 0.8em; text-align:center; }
+*/
+.attendee-filters {
+	align-items: center;
+    background: #1b0700;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+    padding:12px;
+    position: relative;
+}
+
+.form-control{
+	margin-right: 24px;
+	max-width: 250px;
+}
+
+.attendee-filters > input[type='checkbox']{
+	cursor:pointer;
+	display:none;
+}
+
+.attendee-filters > input[type='checkbox']:focus, .attendee-filters > input[type='checkbox']:active{
+	outline: none;
+}
+
+.attendee-filters > input[type='checkbox'] + label{
+
+	cursor:pointer;
+	display: inline-block;
+	line-height: 30px !important;
+	margin-top: 3px;
+	margin-right: 24px;
+	font-size: 20px;
+	padding-left:32px;
+	position: relative;
+}
+
+.attendee-filters > input[type='checkbox'] + label:after{
+	background: white;
+	content:'';
+	display:inline-block;
+	height:20px;
+	left:0;
+	position: absolute;
+	text-align:center;
+	top: 6px;
+	width:20px;
+}
+
+.attendee-filters > input[type='checkbox'] + label:before{
+	background-image: url('images/checkmark.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	content:' ';
+	display: block;
+	fill: white !important;
+	font-size: 18px;
+	height: 16px;
+	left: 2px;
+	opacity: 0;
+	position: absolute;
+	top: 10px;
+	transition: all 0.10s ease-in-out;
+	width: 16px;
+	z-index: 10;
+}
+.attendee-filters > input[type='checkbox'] + label:hover:before{
+	height: 16px;
+	opacity: 0.4;
+	width: 16px;
+}
+
+.attendee-filters > input[type='checkbox']:checked + label:before{
+	height: 16px;
+	opacity: 1;
+	width: 16px;
+}
+
+.filterTotal-wrapper{
+	display: block;
+	position: absolute;
+	right: 12px;
+	border-radius: 50px;
+	background: beige;
+	padding: 3px;
+	color: black;
+	font-weight: bold;
+	min-width: 32px;
+	text-align: center;
+	font-size: 18px;
+}
+
+/*.title{
+	text-align: center;
+}*/
+
+@media only screen and (max-width: 760px){
+	.attendee-filters{
+		display: block;
+	}
+
+	.form-control{
+		margin-bottom: 12px;
+		max-width: 100%;
+		margin-right: 0;
+	}
+
+	.attendee-filters > input[type='checkbox']{
+
+	}
+	.attendee-filters > input[type='checkbox'] + label{
+
+		display: block;
+	}
+
+	.filterTotal-wrapper{
+		bottom: 12px;
+	}
+
+}
+
+
+.attendeesList{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 50px;
+}
+.attendee{
+	font-family: "Roboto Slab";
+	margin: 12px;
+	float:left;
+	width:150px;
+	overflow: hidden;
+	background:#000000;
+	color:whitesmoke;
+	-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.75);
+}
+.attendee.staff{ }
+.attendee .fursuit, .attendee .sponsor{
+	display:none;
+}
+.attendee .images{
+	position:relative;
+	overflow: hidden;
+	float:left;
+	width: 100%;
+	height:138px;
+	background-color: black;
+	border-bottom: 1px solid black;
+}
+.attendee .images .av{
+	z-index: 1;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100;
+	height:138px;
+	display:block;
+	margin:	0 auto;
+}
+.attendee .images .country{
+	top: 3px;
+	right:3px;
+	height: 12px !important;
+	display: block;
+}
+.attendee.fursuiter .images .fursuit{
+	display:block;
+	bottom:3px;
+	right:3px;
+}
+.attendee .images .bonus{
+	display:block;
+	top: 3px;
+	left: 3px;
+	height: 14px !important;
+	width: 14px !important;
+}
+.attendee .images .ico{
+	position: absolute;
+	z-index: 2;
+	width:18px;
+	height:18px;
+}
+.attendee .nick{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	min-height: 70px;
+	padding: 0 5px 5px 0;
+	background: #2f862f;
+	margin-top: 128px;
+	font-size: 0.7em;
+	text-align:center;
+	word-wrap: break-word;
+}
+
+.attendee.sponsor .nick{
+	background:#bc9d2b;
+	word-break: break-word;
+
+}
+
+.attendee.staff .nick{
+	background: #8e0101;
+}
+
+.attendee{
+	border: #2e1a12 solid 8px;
+	-webkit-border-image: url('wood.png') 200 stretch;
+	-moz-border-image: url('wood.png') 200 stretch;
+	border-image: url('wood.png') 200 stretch;
+	position: relative;
+	display: block;
+}
+
+.attendee:before{
+	content: '';
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	left: -1px;
+	bottom: -1px;
+	height: calc(100% + 2px);
+	width: calc(100% + 2px);
+	z-index: 100;
+	-webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
+}
