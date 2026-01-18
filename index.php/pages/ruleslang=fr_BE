@@ -10,11 +10,11 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
 	<meta property="og:site_name" content="Règles — Flüüfff 2018 — En route pour l'abbaye !" />
-	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta property="og:image" content="/assets/pics/og/open-graph.jpg">
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Règles — Flüüfff 2018 — En route pour l'abbaye !" />
 	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
-	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta name="twitter:image" content="/assets/pics/og/open-graph.jpg" />
 	<meta itemprop="name" content="Règles — Flüüfff 2018 — En route pour l'abbaye !" />
 	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
 	<meta name="robots" content="index,follow,noodp,noydir" />
@@ -30,15 +30,15 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}" />
 	<meta name="csrf-param" content="_token" />
 	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
-	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
-	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
-	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/pics/favicons/favicon.ico">
 	<meta name="apple-mobile-web-app-title" content="Règles — Flüüfff 2018 — En route pour l'abbaye !">
 	<meta name="application-name" content="Règles — Flüüfff 2018 — En route pour l'abbaye !">
-	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="msapplication-config" content="/assets/pics/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#1d2435">
 	<!-- <title>Règles — Flüüfff 2018 — En route pour l'abbaye ! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
 	<!--
@@ -64,19 +64,19 @@
 
                      -->
                      <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
-                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
-                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
-                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
-                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-parallax.css" />
+                     <script src="/assets/style/jquery.min.js"></script>
+                     <!-- <script src="/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="/assets/js/aos.js"></script> -->
                      <script type="text/javascript">
 		// function toggleNoScript() {
 		// 	$(".script").removeClass("script");
@@ -88,8 +88,8 @@
 		// }
 	</script>
 	<!-- TODO: css switcher in function of the controller -->
-	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
-	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/style/style_attendees.css">
+	<script src="/assets/js/attendees.js"></script>
 
 </head>
 <body class="parallax">
@@ -100,28 +100,28 @@
 		</label>
 		<div class="pure-drawer" data-position="left">
 			<div class="pane">
-									<a href="https://2018.fluufff.org/index.php" title="Accueil"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+									<a href="/" title="Accueil"><img class="brand fluufff" alt="Flüüfff" src="/assets/pics/logo-dark.svg" />
 					</a>
-					<a href="https://2018.fluufff.org/index.php/register" class="signup">Inscription</a>
+					<a href="/index.php/register" class="signup">Inscription</a>
 					<div class="loginbox">
-						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+						<form class="from-group" action="/index.php/profile/login" method="post">
 							<label class="form-label dark"><p>Email :</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Votre email..." /></label>
 							<label class="form-label dark"><p>Mot de passe :</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
 							<input type="hidden" name="action" value="user"/>
 							<div class="vspace"></div>
-							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">Mot de passe oublié</a>
+							<a href="/index.php/profile/reset" class="reset">Mot de passe oublié</a>
 							<input type="submit" class="form-control btn btn-default" value="Login"/>
 						</form>
 					</div>
 									<div class="language">
-											<a href="https://2018.fluufff.org/index.php/pages/rules?lang=en_GB" data-lang="en">
+											<a href="/index.php/pages/rules?lang=en_GB" data-lang="en">
 							<span>English</span>
 						</a>
-												<a href="https://2018.fluufff.org/index.php/pages/rules?lang=nl_BE" data-lang="nl">
+												<a href="/index.php/pages/rules?lang=nl_BE" data-lang="nl">
 							<span>Nederlands</span>
 						</a>
 										</div>
-								<a href="https://2018.fluufff.org/index.php">Accueil</a>												<a href="https://2018.fluufff.org/index.php/about">À propos</a>				<a href="https://2018.fluufff.org/index.php/attendees">Participants</a>				<a href="https://2018.fluufff.org/index.php/staff">L'équipe</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers' Den</a>				<a href="https://2018.fluufff.org/index.php/events">Programme</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hôtel</a>				<a href="https://2018.fluufff.org/index.php/travel">Accès</a>				<a href="https://2018.fluufff.org/index.php/prices">Tarifs</a>				<a href="https://2018.fluufff.org/index.php/faq">FAQ</a>				<a href="https://2018.fluufff.org/index.php/policies">Règlement</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+								<a href="/">Accueil</a>												<a href="/index.php/about">À propos</a>				<a href="/index.php/attendees">Participants</a>				<a href="/index.php/staff">L'équipe</a>				<a href="/index.php/dealersden">Dealers' Den</a>				<a href="/index.php/events">Programme</a>				<a href="/index.php/hotel">Hôtel</a>				<a href="/index.php/travel">Accès</a>				<a href="/index.php/prices">Tarifs</a>				<a href="/index.php/faq">FAQ</a>				<a href="/index.php/policies">Règlement</a>				<a href="/index.php/contact">Contact</a>											</div>
 			<div class="vspace"></div>
 		</div>
 
@@ -252,8 +252,8 @@ l'hôtel n'autorise pas les animaux de compagnie. Néanmoins les chiens de servi
 				<footer class="footer">
 						<div class="container">
 							<div class="col-md-4">
-								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
-									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								<a class="title" title="Back to homepage" href="/">
+									<img alt="Flüüfff" src="/assets/pics/logo-light.svg" />
 								</a>
 								<address class="address">
 									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
@@ -267,26 +267,26 @@ l'hôtel n'autorise pas les animaux de compagnie. Néanmoins les chiens de servi
 								<nav class="footer-nav">
 									<ul>
 										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/policies" title="Lire nos termes et conditions.">Règlement</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/faq" title="Lire notre FAQ.">FAQ</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/contact" title="Vous avez des questions? Posez-les leur!">Contact</a></li>
+										<li><a href="/index.php/policies" title="Lire nos termes et conditions.">Règlement</a></li>
+										<li><a href="/index.php/faq" title="Lire notre FAQ.">FAQ</a></li>
+										<li><a href="/index.php/contact" title="Vous avez des questions? Posez-les leur!">Contact</a></li>
 									</ul>
 								</nav>
 
-								<!--<li><a href="https://2018.fluufff.org/index.php/links">Autres conventions</a></li>-->
+								<!--<li><a href="/index.php/links">Autres conventions</a></li>-->
 
 						</div>
 						<div class="col-md-5">
 					      <nav class="social-nav">
-					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="/assets/style/images/twitter.svg"></a>
 					      &nbsp;&nbsp;
-					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="/assets/style/images/furaffinity.png"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="/assets/style/images/facebook.svg"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="/assets/style/images/furrynetwork.svg"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="/assets/style/images/telegram.png"></a>
 					      </nav>
 
 					  </div>
@@ -296,6 +296,6 @@ l'hôtel n'autorise pas les animaux de compagnie. Néanmoins les chiens de servi
 		</div>
 		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
 	</div>
-	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+	<script src="/assets/js/app.js"></script>
 </body>
 </html>

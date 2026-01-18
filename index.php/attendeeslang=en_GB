@@ -10,11 +10,11 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
 	<meta property="og:site_name" content="Attendees — Flüüfff 2018 — Welcome to the Abbey!" />
-	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta property="og:image" content="/assets/pics/og/open-graph.jpg">
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Attendees — Flüüfff 2018 — Welcome to the Abbey!" />
 	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
-	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta name="twitter:image" content="/assets/pics/og/open-graph.jpg" />
 	<meta itemprop="name" content="Attendees — Flüüfff 2018 — Welcome to the Abbey!" />
 	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
 	<meta name="robots" content="index,follow,noodp,noydir" />
@@ -30,15 +30,15 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}" />
 	<meta name="csrf-param" content="_token" />
 	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
-	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
-	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
-	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/pics/favicons/favicon.ico">
 	<meta name="apple-mobile-web-app-title" content="Attendees — Flüüfff 2018 — Welcome to the Abbey!">
 	<meta name="application-name" content="Attendees — Flüüfff 2018 — Welcome to the Abbey!">
-	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="msapplication-config" content="/assets/pics/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#1d2435">
 	<!-- <title>Attendees — Flüüfff 2018 — Welcome to the Abbey! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
 	<!--
@@ -64,19 +64,19 @@
 
                      -->
                      <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
-                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
-                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
-                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
-                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-parallax.css" />
+                     <script src="/assets/style/jquery.min.js"></script>
+                     <!-- <script src="/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="/assets/js/aos.js"></script> -->
                      <script type="text/javascript">
 		// function toggleNoScript() {
 		// 	$(".script").removeClass("script");
@@ -88,8 +88,8 @@
 		// }
 	</script>
 	<!-- TODO: css switcher in function of the controller -->
-	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
-	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/style/style_attendees.css">
+	<script src="/assets/js/attendees.js"></script>
 
 </head>
 <body class="parallax">
@@ -100,28 +100,28 @@
 		</label>
 		<div class="pure-drawer" data-position="left">
 			<div class="pane">
-									<a href="https://2018.fluufff.org/index.php" title="Home"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+									<a href="/" title="Home"><img class="brand fluufff" alt="Flüüfff" src="/assets/pics/logo-dark.svg" />
 					</a>
-					<a href="https://2018.fluufff.org/index.php/register" class="signup">Register</a>
+					<a href="/index.php/register" class="signup">Register</a>
 					<div class="loginbox">
-						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+						<form class="from-group" action="/index.php/profile/login" method="post">
 							<label class="form-label dark"><p>Your email:</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Your email..." /></label>
 							<label class="form-label dark"><p>Your password:</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
 							<input type="hidden" name="action" value="user"/>
 							<div class="vspace"></div>
-							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">I forgot my password</a>
+							<a href="/index.php/profile/reset" class="reset">I forgot my password</a>
 							<input type="submit" class="form-control btn btn-default" value="Login"/>
 						</form>
 					</div>
 									<div class="language">
-											<a href="https://2018.fluufff.org/index.php/attendees?lang=fr_BE" data-lang="fr">
+											<a href="/index.php/attendees?lang=fr_BE" data-lang="fr">
 							<span>Français</span>
 						</a>
-												<a href="https://2018.fluufff.org/index.php/attendees?lang=nl_BE" data-lang="nl">
+												<a href="/index.php/attendees?lang=nl_BE" data-lang="nl">
 							<span>Nederlands</span>
 						</a>
 										</div>
-								<a href="https://2018.fluufff.org/index.php">Home</a>												<a href="https://2018.fluufff.org/index.php/about">About</a>				<a href="https://2018.fluufff.org/index.php/attendees" class="active">Attendees</a>				<a href="https://2018.fluufff.org/index.php/staff">Staff</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers' Den</a>				<a href="https://2018.fluufff.org/index.php/events">Events</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hotel</a>				<a href="https://2018.fluufff.org/index.php/travel">Travel</a>				<a href="https://2018.fluufff.org/index.php/prices">Prices</a>				<a href="https://2018.fluufff.org/index.php/faq">Faq</a>				<a href="https://2018.fluufff.org/index.php/policies">Policies</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+								<a href="/">Home</a>												<a href="/index.php/about">About</a>				<a href="/index.php/attendees" class="active">Attendees</a>				<a href="/index.php/staff">Staff</a>				<a href="/index.php/dealersden">Dealers' Den</a>				<a href="/index.php/events">Events</a>				<a href="/index.php/hotel">Hotel</a>				<a href="/index.php/travel">Travel</a>				<a href="/index.php/prices">Prices</a>				<a href="/index.php/faq">Faq</a>				<a href="/index.php/policies">Policies</a>				<a href="/index.php/contact">Contact</a>											</div>
 			<div class="vspace"></div>
 		</div>
 
@@ -137,1578 +137,1578 @@
 	<div class="attendeesList">
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_1.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_1.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Tach</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_2.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_2.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Stan LuckBun</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_3.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_3.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>StarFoxCoon</span></div>
 		</div>
 				<div class="attendee sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_4.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_4.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Kasil</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_5.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_5.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Gigi</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_6.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_6.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Neeky</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_7.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_7.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Orthank</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_8.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_8.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Hell Charm</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_9.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_9.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Damien LeBlanc</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_10.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_10.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Zelts Elis</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_11.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_11.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Amaroq The Durgon</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_12.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_12.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Vrydi</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_13.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_13.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Zepto</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_14.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_14.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Faelan</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_15.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_15.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Zannak</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_16.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_16.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Anuko</span></div>
 		</div>
 				<div class="attendee sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_17.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_17.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Niki</span></div>
 		</div>
 				<div class="attendee sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_18.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_18.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Kanosint</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_19.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_19.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Laddian </span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_20.png')"></div>
-				<img class="country ico" title="Poland" alt="PL"	src="https://2018.fluufff.org/assets/pics/country/pl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_20.png')"></div>
+				<img class="country ico" title="Poland" alt="PL"	src="/assets/pics/country/pl.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Lemurr</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_21.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_21.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Harvey</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_22.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_22.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Ardagan Bao</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_23.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_23.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Oreo</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_24.png')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_24.png')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Kauri Kakarauri</span></div>
 		</div>
 				<div class="attendee sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_25.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_25.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Hypi The Fox</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_26.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_26.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>DD</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_27.png')"></div>
-				<img class="country ico" title="Ireland" alt="IE"	src="https://2018.fluufff.org/assets/pics/country/ie.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_27.png')"></div>
+				<img class="country ico" title="Ireland" alt="IE"	src="/assets/pics/country/ie.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Sundance</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_28.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_28.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Niesh</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_29.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_29.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Furexa</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_30.jpg')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_30.jpg')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Ferrite</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_31.jpg')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_31.jpg')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Razor</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_33.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_33.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Floere T. Pillowcase</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_34.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_34.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Mlice</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Ghesh</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_36.png')"></div>
-				<img class="country ico" title="Portugal" alt="PT"	src="https://2018.fluufff.org/assets/pics/country/pt.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_36.png')"></div>
+				<img class="country ico" title="Portugal" alt="PT"	src="/assets/pics/country/pt.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Pete</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_37.png')"></div>
-				<img class="country ico" title="Canada" alt="CA"	src="https://2018.fluufff.org/assets/pics/country/ca.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_37.png')"></div>
+				<img class="country ico" title="Canada" alt="CA"	src="/assets/pics/country/ca.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Anny</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_38.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_38.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Milo'clock</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_39.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_39.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Dawn</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_40.jpg')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_40.jpg')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
 							</div>
 			<div class="nick"><span>Cambaru</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_41.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_41.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Ganache</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_42.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_42.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Rainbowhusky</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_43.png')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_43.png')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Charmy</span></div>
 		</div>
 				<div class="attendee sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_44.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_44.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Jakob</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_45.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_45.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Gmorkh</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_46.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_46.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Nwar</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_47.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_47.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Fideel</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_48.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_48.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>ZiggySqrl</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_49.png')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_49.png')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>DASPRiD</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_50.jpg')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_50.jpg')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
 							</div>
 			<div class="nick"><span>Sabastion</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_52.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_52.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Silverflame</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_53.jpg')"></div>
-				<img class="country ico" title="United Kingdom" alt="GB"	src="https://2018.fluufff.org/assets/pics/country/gb.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_53.jpg')"></div>
+				<img class="country ico" title="United Kingdom" alt="GB"	src="/assets/pics/country/gb.svg"
 				>
 							</div>
 			<div class="nick"><span>Equium</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_54.jpeg')"></div>
-				<img class="country ico" title="United Kingdom" alt="GB"	src="https://2018.fluufff.org/assets/pics/country/gb.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_54.jpeg')"></div>
+				<img class="country ico" title="United Kingdom" alt="GB"	src="/assets/pics/country/gb.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>FoXi</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_55.jpg')"></div>
-				<img class="country ico" title="United Kingdom" alt="GB"	src="https://2018.fluufff.org/assets/pics/country/gb.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_55.jpg')"></div>
+				<img class="country ico" title="United Kingdom" alt="GB"	src="/assets/pics/country/gb.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Azreth</span></div>
 		</div>
 				<div class="attendee fursuiter staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_56.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_56.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Jenky</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_57.jpeg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_57.jpeg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Fumps The Folf</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>SPRING</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_59.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_59.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Krystal</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_60.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_60.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Toxicoow</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_61.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_61.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Elia</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_62.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_62.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Acer</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Tommeke</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_64.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_64.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Irinae / Alaska</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Shoelace</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_66.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_66.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Kefen</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_67.png')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_67.png')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Katiu</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_68.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_68.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Pudyflux</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_69.png')"></div>
-				<img class="country ico" title="United States" alt="US"	src="https://2018.fluufff.org/assets/pics/country/us.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_69.png')"></div>
+				<img class="country ico" title="United States" alt="US"	src="/assets/pics/country/us.svg"
 				>
 							</div>
 			<div class="nick"><span>sadwyn</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_70.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_70.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Dutchie</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_73.png')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_73.png')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Waveon</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Nimalen</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_75.jpg')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_75.jpg')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
 							</div>
 			<div class="nick"><span>Air</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_77.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_77.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Chains</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_78.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_78.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Haikei</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_79.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_79.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Shiro</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_80.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_80.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Iraes</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_81.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_81.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Dazel</span></div>
 		</div>
 				<div class="attendee staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_82.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_82.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Kanso_fox</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_83.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_83.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>StarStorms</span></div>
 		</div>
 				<div class="attendee staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_84.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_84.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Lezari</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_85.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_85.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Ziggu the Rat</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_86.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_86.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Casalis</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_87.png')"></div>
-				<img class="country ico" title="Poland" alt="PL"	src="https://2018.fluufff.org/assets/pics/country/pl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_87.png')"></div>
+				<img class="country ico" title="Poland" alt="PL"	src="/assets/pics/country/pl.svg"
 				>
 							</div>
 			<div class="nick"><span>Bunny</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_88.png')"></div>
-				<img class="country ico" title="Poland" alt="PL"	src="https://2018.fluufff.org/assets/pics/country/pl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_88.png')"></div>
+				<img class="country ico" title="Poland" alt="PL"	src="/assets/pics/country/pl.svg"
 				>
 							</div>
 			<div class="nick"><span>Gabriel</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_89.png')"></div>
-				<img class="country ico" title="Luxembourg" alt="LU"	src="https://2018.fluufff.org/assets/pics/country/lu.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_89.png')"></div>
+				<img class="country ico" title="Luxembourg" alt="LU"	src="/assets/pics/country/lu.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Moon Flower</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_90.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_90.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Nyerguds</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_91.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_91.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Akylian</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_92.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_92.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Wikke</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_93.jpg')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_93.jpg')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Volskar</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_94.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_94.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Heru Solares</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_95.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_95.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>FoxiesCuties</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_96.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_96.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Auroz</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_98.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_98.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Cytis_Fierce</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_99.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_99.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Liri_Fox</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_101.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_101.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Fur Bendji</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_102.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_102.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>thommy-mhe</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_103.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_103.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Silou</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_104.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_104.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Yashn</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_106.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_106.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Felinar</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_107.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_107.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Thinder</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_108.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_108.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Uly Lynx</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_109.png')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_109.png')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
 							</div>
 			<div class="nick"><span>Leith</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_111.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_111.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Arganalth</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_112.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_112.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Taiki Sensei</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_114.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_114.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Rakipu</span></div>
 		</div>
 				<div class="attendee sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_115.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_115.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Narf </span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_118.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_118.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Iron Sunsetscales</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_119.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_119.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>The Frozen Neroj</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_121.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_121.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Wintie</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_123.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_123.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Doctor Mitch</span></div>
 		</div>
 				<div class="attendee staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_124.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_124.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Tinker</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_125.jpg')"></div>
-				<img class="country ico" title="United States" alt="US"	src="https://2018.fluufff.org/assets/pics/country/us.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_125.jpg')"></div>
+				<img class="country ico" title="United States" alt="US"	src="/assets/pics/country/us.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Shalevoix</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_126.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_126.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Rox</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Grey_jackal</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>hHp</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_130.png')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_130.png')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Oppeola</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_131.jpeg')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_131.jpeg')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Angelo</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_133.png')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_133.png')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Ragabash</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_134.jpg')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_134.jpg')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Kamuniak</span></div>
 		</div>
 				<div class="attendee sponsor staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_135.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_135.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Hiro</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_136.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_136.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>morkheleb</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_137.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_137.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Yami</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_138.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_138.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Artorias</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_139.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_139.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Yulynh</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_140.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_140.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Vexare</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_141.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_141.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Don Nut</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_142.png')"></div>
-				<img class="country ico" title="Finland" alt="FI"	src="https://2018.fluufff.org/assets/pics/country/fi.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_142.png')"></div>
+				<img class="country ico" title="Finland" alt="FI"	src="/assets/pics/country/fi.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Leveler</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>H0rs3</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_144.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_144.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Vexerix</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_145.jpeg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_145.jpeg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>BIAB -Ikkyu</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_146.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_146.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Fluff the Dutch Angel Dragon</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_147.jpeg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_147.jpeg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Jimmy Vegas</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_148.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_148.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>VHydra</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Chouka</span></div>
 		</div>
 				<div class="attendee staff">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_151.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_151.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>SkyFox</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_152.jpg')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_152.jpg')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
 							</div>
 			<div class="nick"><span>Whiskers</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_153.png')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_153.png')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
 							</div>
 			<div class="nick"><span>Jineb</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_154.png')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_154.png')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Silicon</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_156.png')"></div>
-				<img class="country ico" title="Vietnam" alt="VN"	src="https://2018.fluufff.org/assets/pics/country/vn.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_156.png')"></div>
+				<img class="country ico" title="Vietnam" alt="VN"	src="/assets/pics/country/vn.svg"
 				>
 							</div>
 			<div class="nick"><span>Dakara</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_158.jpg')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_158.jpg')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Quba</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_159.png')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_159.png')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Nokly</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_160.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_160.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Lily</span></div>
 		</div>
 				<div class="attendee fursuiter sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_161.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_161.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Sloppy</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_162.jpeg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_162.jpeg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Avant</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_163.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_163.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Elena</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_164.jpg')"></div>
-				<img class="country ico" title="Germany" alt="DE"	src="https://2018.fluufff.org/assets/pics/country/de.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_164.jpg')"></div>
+				<img class="country ico" title="Germany" alt="DE"	src="/assets/pics/country/de.svg"
 				>
 							</div>
 			<div class="nick"><span>Alvos</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_165.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_165.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Kisakarou</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_166.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_166.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Pareldraakje</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_167.jpg')"></div>
-				<img class="country ico" title="United Kingdom" alt="GB"	src="https://2018.fluufff.org/assets/pics/country/gb.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_167.jpg')"></div>
+				<img class="country ico" title="United Kingdom" alt="GB"	src="/assets/pics/country/gb.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Frido</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_168.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_168.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>RedWolf</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_169.jpg')"></div>
-				<img class="country ico" title="France" alt="FR"	src="https://2018.fluufff.org/assets/pics/country/fr.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_169.jpg')"></div>
+				<img class="country ico" title="France" alt="FR"	src="/assets/pics/country/fr.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Aulio</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_171.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_171.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>.xXAkelaXx.</span></div>
 		</div>
 				<div class="attendee sponsor">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_172.png')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_172.png')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
-									<img class="bonus ico" title="Sponsor" src="https://2018.fluufff.org/assets/pics/queen-crown.svg">
+									<img class="bonus ico" title="Sponsor" src="/assets/pics/queen-crown.svg">
 							</div>
 			<div class="nick"><span>Mojo Coyote</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_173.png')"></div>
-				<img class="country ico" title="Bulgaria" alt="BG"	src="https://2018.fluufff.org/assets/pics/country/bg.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_173.png')"></div>
+				<img class="country ico" title="Bulgaria" alt="BG"	src="/assets/pics/country/bg.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Kharos</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_174.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_174.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Cadeyrn</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_175.png')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_175.png')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
 							</div>
 			<div class="nick"><span>requinard</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>jester</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_178.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_178.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Kat</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_179.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_179.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Ooogie</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_180.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_180.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Enwy</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_181.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_181.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>VulcanWolfy</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_182.jpg')"></div>
-				<img class="country ico" title="Slovenia" alt="SI"	src="https://2018.fluufff.org/assets/pics/country/si.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_182.jpg')"></div>
+				<img class="country ico" title="Slovenia" alt="SI"	src="/assets/pics/country/si.svg"
 				>
 							</div>
 			<div class="nick"><span>Taru</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_183.jpg')"></div>
-				<img class="country ico" title="Slovenia" alt="SI"	src="https://2018.fluufff.org/assets/pics/country/si.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_183.jpg')"></div>
+				<img class="country ico" title="Slovenia" alt="SI"	src="/assets/pics/country/si.svg"
 				>
 							</div>
 			<div class="nick"><span>Brad</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_184.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_184.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>wingzord</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_185.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_185.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>elystra</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>BeeLeafR</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_187.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_187.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Choob</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_188.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_188.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Desim</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_189.jpg')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_189.jpg')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
 							</div>
 			<div class="nick"><span>Macnubble</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_default.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_default.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Puddems</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_192.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_192.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Noisk.</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_193.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_193.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>GHOST</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_194.jpg')"></div>
-				<img class="country ico" title="Netherlands" alt="NL"	src="https://2018.fluufff.org/assets/pics/country/nl.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_194.jpg')"></div>
+				<img class="country ico" title="Netherlands" alt="NL"	src="/assets/pics/country/nl.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>SpyroTheFurgon</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_195.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_195.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>NORR</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_196.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_196.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Wolvo</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_197.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_197.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Octave Flynn</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_198.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_198.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Ceartha Secufox</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_199.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_199.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Joey Santiano</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_200.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_200.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Fluvus</span></div>
 		</div>
 				<div class="attendee fursuiter">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_201.png')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_201.png')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
-									<img class="fursuit ico" title="Fursuiter" src="https://2018.fluufff.org/assets/pics/fox.svg">
+									<img class="fursuit ico" title="Fursuiter" src="/assets/pics/fox.svg">
 							</div>
 			<div class="nick"><span>Nightmaress</span></div>
 		</div>
 				<div class="attendee">
 			<div class="images">
-				<div class="av" style="background-image: url('https://2018.fluufff.org/assets/avatars/thumbnail_202.jpg')"></div>
-				<img class="country ico" title="Belgium" alt="BE"	src="https://2018.fluufff.org/assets/pics/country/be.svg"
+				<div class="av" style="background-image: url('/assets/avatars/thumbnail_202.jpg')"></div>
+				<img class="country ico" title="Belgium" alt="BE"	src="/assets/pics/country/be.svg"
 				>
 							</div>
 			<div class="nick"><span>Patty</span></div>
@@ -1722,8 +1722,8 @@
 				<footer class="footer">
 						<div class="container">
 							<div class="col-md-4">
-								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
-									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								<a class="title" title="Back to homepage" href="/">
+									<img alt="Flüüfff" src="/assets/pics/logo-light.svg" />
 								</a>
 								<address class="address">
 									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
@@ -1737,26 +1737,26 @@
 								<nav class="footer-nav">
 									<ul>
 										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/policies" title="Read through our policies">Policies</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
+										<li><a href="/index.php/policies" title="Read through our policies">Policies</a></li>
+										<li><a href="/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
+										<li><a href="/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
 									</ul>
 								</nav>
 
-								<!--<li><a href="https://2018.fluufff.org/index.php/links">Other conventions</a></li>-->
+								<!--<li><a href="/index.php/links">Other conventions</a></li>-->
 
 						</div>
 						<div class="col-md-5">
 					      <nav class="social-nav">
-					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="/assets/style/images/twitter.svg"></a>
 					      &nbsp;&nbsp;
-					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="/assets/style/images/furaffinity.png"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="/assets/style/images/facebook.svg"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="/assets/style/images/furrynetwork.svg"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="/assets/style/images/telegram.png"></a>
 					      </nav>
 
 					  </div>
@@ -1766,6 +1766,6 @@
 		</div>
 		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
 	</div>
-	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+	<script src="/assets/js/app.js"></script>
 </body>
 </html>

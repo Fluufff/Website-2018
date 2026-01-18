@@ -10,11 +10,11 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
 	<meta property="og:site_name" content="Staff — Flüüfff 2018 — Welcome to the Abbey!" />
-	<meta property="og:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg">
+	<meta property="og:image" content="/assets/pics/og/open-graph.jpg">
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Staff — Flüüfff 2018 — Welcome to the Abbey!" />
 	<meta name="twitter:description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
-	<meta name="twitter:image" content="https://2018.fluufff.org/assets/pics/og/open-graph.jpg" />
+	<meta name="twitter:image" content="/assets/pics/og/open-graph.jpg" />
 	<meta itemprop="name" content="Staff — Flüüfff 2018 — Welcome to the Abbey!" />
 	<meta itemprop="description" content="Welcome to the website of the Flüüfff, Belgium's furry convention!" />
 	<meta name="robots" content="index,follow,noodp,noydir" />
@@ -30,15 +30,15 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}" />
 	<meta name="csrf-param" content="_token" />
 	<!-- <link rel="stylesheet" href="{{ version('assets/front/css/app.css') }}" type="text/css" media="all" /> -->
-	<link rel="apple-touch-icon" sizes="180x180" href="https://2018.fluufff.org/assets/pics/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://2018.fluufff.org/assets/pics/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://2018.fluufff.org/assets/pics/favicons/favicon-16x16.png">
-	<!-- <link rel="manifest" href="https://2018.fluufff.org/assets/pics/favicons/manifest.json"> -->
-	<link rel="mask-icon" href="https://2018.fluufff.org/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="https://2018.fluufff.org/assets/pics/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/pics/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/pics/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/pics/favicons/favicon-16x16.png">
+	<!-- <link rel="manifest" href="/assets/pics/favicons/manifest.json"> -->
+	<link rel="mask-icon" href="/assets/pics/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/pics/favicons/favicon.ico">
 	<meta name="apple-mobile-web-app-title" content="Staff — Flüüfff 2018 — Welcome to the Abbey!">
 	<meta name="application-name" content="Staff — Flüüfff 2018 — Welcome to the Abbey!">
-	<meta name="msapplication-config" content="https://2018.fluufff.org/assets/pics/favicons/browserconfig.xml">
+	<meta name="msapplication-config" content="/assets/pics/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#1d2435">
 	<!-- <title>Staff — Flüüfff 2018 — Welcome to the Abbey! — Flüüfff 2018 — Welcome to the Abbey!</title> -->
 	<!--
@@ -64,19 +64,19 @@
 
                      -->
                      <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-aos.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/bootstrap/css/bootstrap.min.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/pure-drawer.min.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-fonts.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-events.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-pages.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-gallery.css" />
-                     <link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style-parallax.css" />
-                     <script src="https://2018.fluufff.org/assets/style/jquery.min.js"></script>
-                     <!-- <script src="https://2018.fluufff.org/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
-                     <!-- <script src="https://2018.fluufff.org/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
-                     <!-- <script src="https://2018.fluufff.org/assets/js/aos.js"></script> -->
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-aos.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/bootstrap/css/bootstrap.min.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/pure-drawer.min.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-fonts.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-events.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-pages.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-gallery.css" />
+                     <link rel="stylesheet" type="text/css" href="/assets/style/style-parallax.css" />
+                     <script src="/assets/style/jquery.min.js"></script>
+                     <!-- <script src="/assets/style/jquery-ui/jquery-ui.min.js"></script> -->
+                     <!-- <script src="/assets/style/bootstrap/js/bootstrap.min.js"></script> -->
+                     <!-- <script src="/assets/js/aos.js"></script> -->
                      <script type="text/javascript">
 		// function toggleNoScript() {
 		// 	$(".script").removeClass("script");
@@ -88,8 +88,8 @@
 		// }
 	</script>
 	<!-- TODO: css switcher in function of the controller -->
-	<link rel="stylesheet" type="text/css" href="https://2018.fluufff.org/assets/style/style_attendees.css">
-	<script src="https://2018.fluufff.org/assets/js/attendees.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/style/style_attendees.css">
+	<script src="/assets/js/attendees.js"></script>
 
 </head>
 <body class="parallax">
@@ -100,28 +100,28 @@
 		</label>
 		<div class="pure-drawer" data-position="left">
 			<div class="pane">
-									<a href="https://2018.fluufff.org/index.php" title="Home"><img class="brand fluufff" alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-dark.svg" />
+									<a href="/" title="Home"><img class="brand fluufff" alt="Flüüfff" src="/assets/pics/logo-dark.svg" />
 					</a>
-					<a href="https://2018.fluufff.org/index.php/register" class="signup">Register</a>
+					<a href="/index.php/register" class="signup">Register</a>
 					<div class="loginbox">
-						<form class="from-group" action="https://2018.fluufff.org/index.php/profile/login" method="post">
+						<form class="from-group" action="/index.php/profile/login" method="post">
 							<label class="form-label dark"><p>Your email:</p> <input class="form-control dark" name="email" type="email" required="required" placeholder="Your email..." /></label>
 							<label class="form-label dark"><p>Your password:</p> <input class="form-control dark" name="password" type="password" required="required" /></label>
 							<input type="hidden" name="action" value="user"/>
 							<div class="vspace"></div>
-							<a href="https://2018.fluufff.org/index.php/profile/reset" class="reset">I forgot my password</a>
+							<a href="/index.php/profile/reset" class="reset">I forgot my password</a>
 							<input type="submit" class="form-control btn btn-default" value="Login"/>
 						</form>
 					</div>
 									<div class="language">
-											<a href="https://2018.fluufff.org/index.php/staff?lang=fr_BE" data-lang="fr">
+											<a href="/index.php/staff?lang=fr_BE" data-lang="fr">
 							<span>Français</span>
 						</a>
-												<a href="https://2018.fluufff.org/index.php/staff?lang=nl_BE" data-lang="nl">
+												<a href="/index.php/staff?lang=nl_BE" data-lang="nl">
 							<span>Nederlands</span>
 						</a>
 										</div>
-								<a href="https://2018.fluufff.org/index.php">Home</a>												<a href="https://2018.fluufff.org/index.php/about">About</a>				<a href="https://2018.fluufff.org/index.php/attendees">Attendees</a>				<a href="https://2018.fluufff.org/index.php/staff" class="active">Staff</a>				<a href="https://2018.fluufff.org/index.php/dealersden">Dealers' Den</a>				<a href="https://2018.fluufff.org/index.php/events">Events</a>				<a href="https://2018.fluufff.org/index.php/hotel">Hotel</a>				<a href="https://2018.fluufff.org/index.php/travel">Travel</a>				<a href="https://2018.fluufff.org/index.php/prices">Prices</a>				<a href="https://2018.fluufff.org/index.php/faq">Faq</a>				<a href="https://2018.fluufff.org/index.php/policies">Policies</a>				<a href="https://2018.fluufff.org/index.php/contact">Contact</a>											</div>
+								<a href="/">Home</a>												<a href="/index.php/about">About</a>				<a href="/index.php/attendees">Attendees</a>				<a href="/index.php/staff" class="active">Staff</a>				<a href="/index.php/dealersden">Dealers' Den</a>				<a href="/index.php/events">Events</a>				<a href="/index.php/hotel">Hotel</a>				<a href="/index.php/travel">Travel</a>				<a href="/index.php/prices">Prices</a>				<a href="/index.php/faq">Faq</a>				<a href="/index.php/policies">Policies</a>				<a href="/index.php/contact">Contact</a>											</div>
 			<div class="vspace"></div>
 		</div>
 
@@ -150,7 +150,7 @@
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/stan.png" width="128px"/>
+					<img src="/assets/pics/staff/stan.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Stan				</p>
@@ -159,9 +159,9 @@
 				<div class="content">
 					<div class="name">
 						Stan					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/stan.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/stan.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					One hell of a hoppy flopper, I’m the bunny of this team!
 <br/>
 I live in Brussels and enjoy drawing, Belgian cuisine and good old-fashioned rock ’n’ roll.
@@ -172,7 +172,7 @@ Do you want a jelly bunny?				</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/faelan.jpg" width="128px"/>
+					<img src="/assets/pics/staff/faelan.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Faelan				</p>
@@ -181,9 +181,9 @@ Do you want a jelly bunny?				</div>
 				<div class="content">
 					<div class="name">
 						Faelan					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/faelan.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/faelan.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Salutations!
 <br/>
 Your friendly neighbourhood crimson woofle here.
@@ -197,7 +197,7 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/gigi.jpg" width="128px"/>
+					<img src="/assets/pics/staff/gigi.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Gigi				</p>
@@ -206,14 +206,14 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Gigi					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/gigi.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/gigi.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/laddian.jpg" width="128px"/>
+					<img src="/assets/pics/staff/laddian.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Laddian				</p>
@@ -222,14 +222,14 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Laddian					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/laddian.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/laddian.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/tach.png" width="128px"/>
+					<img src="/assets/pics/staff/tach.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Tach				</p>
@@ -238,10 +238,10 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Tach					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/tach.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
+					<img class="avatar" src="/assets/pics/staff/tach.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
 					Hi, I’m a genetically engineered <i>Achillobator giganticus</i>! Due to some contaminations, I’ve got human DNA. That’s crazy but do you know that human DNA make you fond of waffles, play videogames and requires you to pay taxes?
 <br/>
 I’m head of the ConOps, so don’t worry to stop me and ask me any question during the convention.
@@ -260,7 +260,7 @@ Can I tell you a secret? I’ve got a secret identity
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/tach.png" width="128px"/>
+					<img src="/assets/pics/staff/tach.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Tach				</p>
@@ -269,10 +269,10 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Tach					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/tach.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
+					<img class="avatar" src="/assets/pics/staff/tach.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
 					Hi, I’m a genetically engineered <i>Achillobator giganticus</i>! Due to some contaminations, I’ve got human DNA. That’s crazy but do you know that human DNA make you fond of waffles, play videogames and requires you to pay taxes?
 <br/>
 I’m head of the ConOps, so don’t worry to stop me and ask me any question during the convention.
@@ -286,7 +286,7 @@ Can I tell you a secret? I’ve got a secret identity
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/hypi.png" width="128px"/>
+					<img src="/assets/pics/staff/hypi.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Hypi				</p>
@@ -295,9 +295,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Hypi					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/hypi.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/hypi.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					I'm Hypi The Fox, kind, nerdy and Fanta-addicted!
 I love to either improve or destroy websites, depending on my mood! If the fluufff.org website is down, I didn't do anything! ;)
 If you have any questions during the convention, related to Apple VS Windows & Android, I'm there to discuss to you about how much Apple sucks !
@@ -306,7 +306,7 @@ Also, hugs are always welcome, especially when you're suiting, so just run to me
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/hiro lynx.png" width="128px"/>
+					<img src="/assets/pics/staff/hiro lynx.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Hiro Lynx				</p>
@@ -315,9 +315,9 @@ Also, hugs are always welcome, especially when you're suiting, so just run to me
 				<div class="content">
 					<div class="name">
 						Hiro Lynx					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/hiro lynx.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/hiro lynx.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Hi, I’m a fluffy french lynx that loves music, programming and food.
 <br/>
 I also sleep a lot and am made of olive oil and sloth.
@@ -326,7 +326,7 @@ Hence the short bio.				</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kasil.png" width="128px"/>
+					<img src="/assets/pics/staff/kasil.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Kasil				</p>
@@ -335,15 +335,15 @@ Hence the short bio.				</div>
 				<div class="content">
 					<div class="name">
 						Kasil					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kasil.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/kasil.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/niki.jpg" width="128px"/>
+					<img src="/assets/pics/staff/niki.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Niki				</p>
@@ -352,9 +352,9 @@ Hence the short bio.				</div>
 				<div class="content">
 					<div class="name">
 						Niki					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/niki.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/niki.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					If the website is down, it’s my fault!
 <br/><br/>
 I’m your resident kangaroo, probably watching the coffee machine
@@ -372,7 +372,7 @@ debates, you can ping me :)
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/laddian.jpg" width="128px"/>
+					<img src="/assets/pics/staff/laddian.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Laddian				</p>
@@ -381,14 +381,14 @@ debates, you can ping me :)
 				<div class="content">
 					<div class="name">
 						Laddian					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/laddian.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/laddian.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/dawn.png" width="128px"/>
+					<img src="/assets/pics/staff/dawn.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Dawn				</p>
@@ -397,14 +397,14 @@ debates, you can ping me :)
 				<div class="content">
 					<div class="name">
 						Dawn					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/dawn.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/dawn.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/jenky.jpg" width="128px"/>
+					<img src="/assets/pics/staff/jenky.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Jenky				</p>
@@ -413,14 +413,14 @@ debates, you can ping me :)
 				<div class="content">
 					<div class="name">
 						Jenky					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/jenky.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/jenky.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/zepto.png" width="128px"/>
+					<img src="/assets/pics/staff/zepto.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Zepto				</p>
@@ -429,9 +429,9 @@ debates, you can ping me :)
 				<div class="content">
 					<div class="name">
 						Zepto					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/zepto.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/zepto.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					<p>Yarr, I'm Zepto, Usually I'm just another furry artist, but for Flüufff I'm in charge of the Art department! I'm the first point of contact for all artists involved with Fluufff, and I handle the Dealer's Den during the convention. If you're an artist interested working for Flüüfff and we haven't talked yet, poke me on telegram, FA, or just drop a message at dealers.den@fluufff.org!</p>				</div>
 			</a>
 		</div>
@@ -441,7 +441,7 @@ debates, you can ping me :)
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/orthank.png" width="128px"/>
+					<img src="/assets/pics/staff/orthank.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Orthank				</p>
@@ -450,9 +450,9 @@ debates, you can ping me :)
 				<div class="content">
 					<div class="name">
 						Orthank					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/orthank.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/orthank.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Hi, I’m the mighty tauren of Flüüfff.
 <br/>
 Remember, mess with the bull, you get the horns !
@@ -462,7 +462,7 @@ Remember, mess with the bull, you get the horns !
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/hell charm.png" width="128px"/>
+					<img src="/assets/pics/staff/hell charm.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Hell Charm				</p>
@@ -471,9 +471,9 @@ Remember, mess with the bull, you get the horns !
 				<div class="content">
 					<div class="name">
 						Hell Charm					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/hell charm.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/hell charm.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Hi, I'm Hell Charm (or Charm for short), a friendly snow leopard lady and sometimes a koi dragon as well.<br>
 I am a 3D and VFX artist who also loves to make fursuits.<br>
 Don't be afraid to come over or poke me on telegram if you want to have a chat or need help with anything!				</div>
@@ -485,7 +485,7 @@ Don't be afraid to come over or poke me on telegram if you want to have a chat o
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/faelan.jpg" width="128px"/>
+					<img src="/assets/pics/staff/faelan.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Faelan				</p>
@@ -494,9 +494,9 @@ Don't be afraid to come over or poke me on telegram if you want to have a chat o
 				<div class="content">
 					<div class="name">
 						Faelan					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/faelan.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/faelan.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Salutations!
 <br/>
 Your friendly neighbourhood crimson woofle here.
@@ -510,7 +510,7 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/zepto.png" width="128px"/>
+					<img src="/assets/pics/staff/zepto.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Zepto				</p>
@@ -519,9 +519,9 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Zepto					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/zepto.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/zepto.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					<p>Yarr, I'm Zepto, Usually I'm just another furry artist, but for Flüufff I'm in charge of the Art department! I'm the first point of contact for all artists involved with Fluufff, and I handle the Dealer's Den during the convention. If you're an artist interested working for Flüüfff and we haven't talked yet, poke me on telegram, FA, or just drop a message at dealers.den@fluufff.org!</p>				</div>
 			</a>
 		</div>
@@ -531,7 +531,7 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/star.jpg" width="128px"/>
+					<img src="/assets/pics/staff/star.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Star				</p>
@@ -540,9 +540,9 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Star					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/star.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/star.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					<p>
 	Hey fluffs!
 </p>
@@ -558,7 +558,7 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kanso.jpg" width="128px"/>
+					<img src="/assets/pics/staff/kanso.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Kanso				</p>
@@ -567,10 +567,10 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Kanso					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kanso.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
+					<img class="avatar" src="/assets/pics/staff/kanso.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
 					<p>
 Goodmorning!
 </p>
@@ -595,7 +595,7 @@ I'm an introvert and not a big hugger so expect some cringe when hugging me
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/pete.png" width="128px"/>
+					<img src="/assets/pics/staff/pete.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Pete				</p>
@@ -604,9 +604,9 @@ I'm an introvert and not a big hugger so expect some cringe when hugging me
 				<div class="content">
 					<div class="name">
 						Pete					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/pete.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/pt.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/pete.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/pt.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Hello there!<br><br>
 I am Petephin, a software engineer and musician from Portugal with a passion for lighting and sound design.<br>
 I have previously worked as a stage and lighting technician, although at the moment I'm mostly focused on music and audio, not only as a musician, but also mixing and mastering.<br>
@@ -614,7 +614,7 @@ And also, 4ever Avolites and Clay Paky fanboy. (JK, ILU Star <3).				</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/tinker-fox.png" width="128px"/>
+					<img src="/assets/pics/staff/tinker-fox.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Tinker-Fox				</p>
@@ -623,9 +623,9 @@ And also, 4ever Avolites and Clay Paky fanboy. (JK, ILU Star <3).				</div>
 				<div class="content">
 					<div class="name">
 						Tinker-Fox					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/tinker-fox.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/tinker-fox.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					00100000 01101000 01100101 01101100 01101100 01101100 01101111 00101100 00100000 01101001 00100000 01100001 01101101 00100000 01110100 01101001 01101110 01101011 01100101 01110010 01100110 01101111 01111000 00100000 01101001 00100111 01101101 00100000 01100001 00100000 01110100 01101111 01100001 01110011 01110100 01100101 01110010 00100000 00100000 01100001 01101110 01100100 00100000 01100001 01110000 01110000 01100001 01110010 01100101 01101110 01110100 01101100 01111001 00100000 01111001 01101111 01110101 00100000 01100011 01100001 01101110 00100000 01110111 01101111 01110010 01101011 00100000 01110111 01101001 01110100 01101000 00100000 01100001 01101110 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00100000 01100011 01101111 01101110 01110110 01100101 01110010 01110100 01101111 01110010 00100000 00100000 00101100 00100000 00100000 01101001 00100111 01101100 01101100 00100000 01100010 01100101 00100000 01110000 01110101 01110011 01101000 01101001 01101110 01100111 00100000 01100010 01110101 01110100 01110100 01101111 01101110 01110011 00100000 01100001 01101110 01100100 00100000 01101101 01100001 01101011 01100101 00100000 01101100 01101001 01100111 01101000 01110100 01110011 00100000 01100110 01101100 01100001 01110011 01101000 00100000 00101110 00100000				</div>
 			</a>
 		</div>
@@ -635,7 +635,7 @@ And also, 4ever Avolites and Clay Paky fanboy. (JK, ILU Star <3).				</div>
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/tach.png" width="128px"/>
+					<img src="/assets/pics/staff/tach.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Tach				</p>
@@ -644,10 +644,10 @@ And also, 4ever Avolites and Clay Paky fanboy. (JK, ILU Star <3).				</div>
 				<div class="content">
 					<div class="name">
 						Tach					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/tach.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
+					<img class="avatar" src="/assets/pics/staff/tach.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
 					Hi, I’m a genetically engineered <i>Achillobator giganticus</i>! Due to some contaminations, I’ve got human DNA. That’s crazy but do you know that human DNA make you fond of waffles, play videogames and requires you to pay taxes?
 <br/>
 I’m head of the ConOps, so don’t worry to stop me and ask me any question during the convention.
@@ -661,7 +661,7 @@ Can I tell you a secret? I’ve got a secret identity
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/jakob.png" width="128px"/>
+					<img src="/assets/pics/staff/jakob.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Jakob				</p>
@@ -670,14 +670,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Jakob					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/jakob.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/jakob.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/dd.png" width="128px"/>
+					<img src="/assets/pics/staff/dd.png" width="128px"/>
 				</span>
 				<p class="desc">
 				DD				</p>
@@ -686,15 +686,15 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						DD					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/dd.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
+					<img class="avatar" src="/assets/pics/staff/dd.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/narf.jpg" width="128px"/>
+					<img src="/assets/pics/staff/narf.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Narf				</p>
@@ -703,15 +703,15 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Narf					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/narf.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
+					<img class="avatar" src="/assets/pics/staff/narf.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/skyfox.jpg" width="128px"/>
+					<img src="/assets/pics/staff/skyfox.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Skyfox				</p>
@@ -720,9 +720,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Skyfox					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/skyfox.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/skyfox.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 		</div>
@@ -732,7 +732,7 @@ Can I tell you a secret? I’ve got a secret identity
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/amaroq.jpg" width="128px"/>
+					<img src="/assets/pics/staff/amaroq.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Amaroq				</p>
@@ -741,14 +741,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Amaroq					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/amaroq.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/amaroq.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/damien leblanc.jpg" width="128px"/>
+					<img src="/assets/pics/staff/damien leblanc.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Damien LeBlanc				</p>
@@ -757,14 +757,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Damien LeBlanc					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/damien leblanc.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/damien leblanc.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/dd.png" width="128px"/>
+					<img src="/assets/pics/staff/dd.png" width="128px"/>
 				</span>
 				<p class="desc">
 				DD				</p>
@@ -773,15 +773,15 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						DD					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/dd.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
+					<img class="avatar" src="/assets/pics/staff/dd.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/faelan.jpg" width="128px"/>
+					<img src="/assets/pics/staff/faelan.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Faelan				</p>
@@ -790,9 +790,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Faelan					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/faelan.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/faelan.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Salutations!
 <br/>
 Your friendly neighbourhood crimson woofle here.
@@ -806,7 +806,7 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/ganache.png" width="128px"/>
+					<img src="/assets/pics/staff/ganache.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Ganache				</p>
@@ -815,14 +815,14 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Ganache					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/ganache.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/ganache.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/hell charm.png" width="128px"/>
+					<img src="/assets/pics/staff/hell charm.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Hell Charm				</p>
@@ -831,16 +831,16 @@ Also, if you ever get in an argument with me, just feed me some sushi, and all i
 				<div class="content">
 					<div class="name">
 						Hell Charm					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/hell charm.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/hell charm.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					Hi, I'm Hell Charm (or Charm for short), a friendly snow leopard lady and sometimes a koi dragon as well.<br>
 I am a 3D and VFX artist who also loves to make fursuits.<br>
 Don't be afraid to come over or poke me on telegram if you want to have a chat or need help with anything!				</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kanosint.png" width="128px"/>
+					<img src="/assets/pics/staff/kanosint.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Kanosint				</p>
@@ -849,14 +849,14 @@ Don't be afraid to come over or poke me on telegram if you want to have a chat o
 				<div class="content">
 					<div class="name">
 						Kanosint					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kanosint.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/kanosint.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/neeky.png" width="128px"/>
+					<img src="/assets/pics/staff/neeky.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Neeky				</p>
@@ -865,14 +865,14 @@ Don't be afraid to come over or poke me on telegram if you want to have a chat o
 				<div class="content">
 					<div class="name">
 						Neeky					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/neeky.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/neeky.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/tach.png" width="128px"/>
+					<img src="/assets/pics/staff/tach.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Tach				</p>
@@ -881,10 +881,10 @@ Don't be afraid to come over or poke me on telegram if you want to have a chat o
 				<div class="content">
 					<div class="name">
 						Tach					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/tach.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
+					<img class="avatar" src="/assets/pics/staff/tach.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
 					Hi, I’m a genetically engineered <i>Achillobator giganticus</i>! Due to some contaminations, I’ve got human DNA. That’s crazy but do you know that human DNA make you fond of waffles, play videogames and requires you to pay taxes?
 <br/>
 I’m head of the ConOps, so don’t worry to stop me and ask me any question during the convention.
@@ -898,7 +898,7 @@ Can I tell you a secret? I’ve got a secret identity
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/vrydi.jpg" width="128px"/>
+					<img src="/assets/pics/staff/vrydi.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Vrydi				</p>
@@ -907,14 +907,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Vrydi					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/vrydi.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/vrydi.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/wikke.jpg" width="128px"/>
+					<img src="/assets/pics/staff/wikke.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Wikke				</p>
@@ -923,14 +923,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Wikke					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/wikke.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/wikke.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/zannak.jpg" width="128px"/>
+					<img src="/assets/pics/staff/zannak.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Zannak				</p>
@@ -939,14 +939,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Zannak					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/zannak.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/zannak.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/zelts.png" width="128px"/>
+					<img src="/assets/pics/staff/zelts.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Zelts				</p>
@@ -955,9 +955,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Zelts					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/zelts.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/zelts.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 		</div>
@@ -967,7 +967,7 @@ Can I tell you a secret? I’ve got a secret identity
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/zepto.png" width="128px"/>
+					<img src="/assets/pics/staff/zepto.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Zepto				</p>
@@ -976,9 +976,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Zepto					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/zepto.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/zepto.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					<p>Yarr, I'm Zepto, Usually I'm just another furry artist, but for Flüufff I'm in charge of the Art department! I'm the first point of contact for all artists involved with Fluufff, and I handle the Dealer's Den during the convention. If you're an artist interested working for Flüüfff and we haven't talked yet, poke me on telegram, FA, or just drop a message at dealers.den@fluufff.org!</p>				</div>
 			</a>
 		</div>
@@ -988,7 +988,7 @@ Can I tell you a secret? I’ve got a secret identity
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/anuko.png" width="128px"/>
+					<img src="/assets/pics/staff/anuko.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Anuko				</p>
@@ -997,14 +997,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Anuko					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/anuko.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/anuko.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/akylian.png" width="128px"/>
+					<img src="/assets/pics/staff/akylian.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Akylian				</p>
@@ -1013,14 +1013,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Akylian					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/akylian.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/akylian.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/auroz.png" width="128px"/>
+					<img src="/assets/pics/staff/auroz.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Auroz				</p>
@@ -1029,9 +1029,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Auroz					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/auroz.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/auroz.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 		</div>
@@ -1041,7 +1041,7 @@ Can I tell you a secret? I’ve got a secret identity
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kosse.png" width="128px"/>
+					<img src="/assets/pics/staff/kosse.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Kosse				</p>
@@ -1050,9 +1050,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Kosse					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kosse.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/kosse.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 		</div>
@@ -1062,7 +1062,7 @@ Can I tell you a secret? I’ve got a secret identity
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/stan.png" width="128px"/>
+					<img src="/assets/pics/staff/stan.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Stan				</p>
@@ -1071,9 +1071,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Stan					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/stan.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/stan.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					One hell of a hoppy flopper, I’m the bunny of this team!
 <br/>
 I live in Brussels and enjoy drawing, Belgian cuisine and good old-fashioned rock ’n’ roll.
@@ -1084,7 +1084,7 @@ Do you want a jelly bunny?				</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kanosint.png" width="128px"/>
+					<img src="/assets/pics/staff/kanosint.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Kanosint				</p>
@@ -1093,14 +1093,14 @@ Do you want a jelly bunny?				</div>
 				<div class="content">
 					<div class="name">
 						Kanosint					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kanosint.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/kanosint.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kasil.png" width="128px"/>
+					<img src="/assets/pics/staff/kasil.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Kasil				</p>
@@ -1109,15 +1109,15 @@ Do you want a jelly bunny?				</div>
 				<div class="content">
 					<div class="name">
 						Kasil					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kasil.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/kasil.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/lezari.png" width="128px"/>
+					<img src="/assets/pics/staff/lezari.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Lezari				</p>
@@ -1126,15 +1126,15 @@ Do you want a jelly bunny?				</div>
 				<div class="content">
 					<div class="name">
 						Lezari					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/lezari.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/pl.svg'>
+					<img class="avatar" src="/assets/pics/staff/lezari.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/pl.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/tach.png" width="128px"/>
+					<img src="/assets/pics/staff/tach.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Tach				</p>
@@ -1143,10 +1143,10 @@ Do you want a jelly bunny?				</div>
 				<div class="content">
 					<div class="name">
 						Tach					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/tach.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
+					<img class="avatar" src="/assets/pics/staff/tach.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
 					Hi, I’m a genetically engineered <i>Achillobator giganticus</i>! Due to some contaminations, I’ve got human DNA. That’s crazy but do you know that human DNA make you fond of waffles, play videogames and requires you to pay taxes?
 <br/>
 I’m head of the ConOps, so don’t worry to stop me and ask me any question during the convention.
@@ -1165,7 +1165,7 @@ Can I tell you a secret? I’ve got a secret identity
 			<div class="gallery staff">
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/dazel.jpg" width="128px"/>
+					<img src="/assets/pics/staff/dazel.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Dazel				</p>
@@ -1174,14 +1174,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Dazel					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/dazel.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/dazel.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/dawn.png" width="128px"/>
+					<img src="/assets/pics/staff/dawn.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Dawn				</p>
@@ -1190,14 +1190,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Dawn					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/dawn.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/dawn.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/eden.png" width="128px"/>
+					<img src="/assets/pics/staff/eden.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Eden				</p>
@@ -1206,15 +1206,15 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Eden					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/eden.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
+					<img class="avatar" src="/assets/pics/staff/eden.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/elena.png" width="128px"/>
+					<img src="/assets/pics/staff/elena.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Elena				</p>
@@ -1223,14 +1223,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Elena					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/elena.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/elena.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/jenky.jpg" width="128px"/>
+					<img src="/assets/pics/staff/jenky.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Jenky				</p>
@@ -1239,14 +1239,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Jenky					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/jenky.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/jenky.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/lainn.png" width="128px"/>
+					<img src="/assets/pics/staff/lainn.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Lainn				</p>
@@ -1255,14 +1255,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Lainn					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/lainn.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/lainn.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kiguren.png" width="128px"/>
+					<img src="/assets/pics/staff/kiguren.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Kiguren				</p>
@@ -1271,14 +1271,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Kiguren					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kiguren.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/kiguren.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					bio_kiguren				</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/kosse.png" width="128px"/>
+					<img src="/assets/pics/staff/kosse.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Kosse				</p>
@@ -1287,14 +1287,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Kosse					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/kosse.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/fr.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/kosse.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/fr.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/niels.jpg" width="128px"/>
+					<img src="/assets/pics/staff/niels.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Niels				</p>
@@ -1303,14 +1303,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Niels					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/niels.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/niels.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/norr.jpg" width="128px"/>
+					<img src="/assets/pics/staff/norr.jpg" width="128px"/>
 				</span>
 				<p class="desc">
 				Norr				</p>
@@ -1319,14 +1319,14 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Norr					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/norr.jpg"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/norr.jpg"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 									</div>
 			</a>
 			<a class="pic">
 				<span class="img">
-					<img src="https://2018.fluufff.org/assets/pics/staff/zepto.png" width="128px"/>
+					<img src="/assets/pics/staff/zepto.png" width="128px"/>
 				</span>
 				<p class="desc">
 				Zepto				</p>
@@ -1335,9 +1335,9 @@ Can I tell you a secret? I’ve got a secret identity
 				<div class="content">
 					<div class="name">
 						Zepto					</div>
-					<img class="avatar" src="https://2018.fluufff.org/assets/pics/staff/zepto.png"/>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/nl.svg'>
-				<img class='lang' width='32px' src='https://2018.fluufff.org/assets/pics/country/uk.svg'>
+					<img class="avatar" src="/assets/pics/staff/zepto.png"/>
+				<img class='lang' width='32px' src='/assets/pics/country/nl.svg'>
+				<img class='lang' width='32px' src='/assets/pics/country/uk.svg'>
 					<p>Yarr, I'm Zepto, Usually I'm just another furry artist, but for Flüufff I'm in charge of the Art department! I'm the first point of contact for all artists involved with Fluufff, and I handle the Dealer's Den during the convention. If you're an artist interested working for Flüüfff and we haven't talked yet, poke me on telegram, FA, or just drop a message at dealers.den@fluufff.org!</p>				</div>
 			</a>
 		</div>
@@ -1349,8 +1349,8 @@ Can I tell you a secret? I’ve got a secret identity
 				<footer class="footer">
 						<div class="container">
 							<div class="col-md-4">
-								<a class="title" title="Back to homepage" href="https://2018.fluufff.org/">
-									<img alt="Flüüfff" src="https://2018.fluufff.org/assets/pics/logo-light.svg" />
+								<a class="title" title="Back to homepage" href="/">
+									<img alt="Flüüfff" src="/assets/pics/logo-light.svg" />
 								</a>
 								<address class="address">
 									<a href="https://www.corsendonkhotels.com/en/clubs/duinse-polders/" title="Discover the hotel!" target="_blank">
@@ -1364,26 +1364,26 @@ Can I tell you a secret? I’ve got a secret identity
 								<nav class="footer-nav">
 									<ul>
 										<li><a href="https://fluufff.org" title="Current Website">Current Website</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/policies" title="Read through our policies">Policies</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
-										<li><a href="https://2018.fluufff.org/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
+										<li><a href="/index.php/policies" title="Read through our policies">Policies</a></li>
+										<li><a href="/index.php/faq" title="Read the frequently asked questions">FAQ</a></li>
+										<li><a href="/index.php/contact" title="Got any questions? Ask them!">Contact</a></li>
 									</ul>
 								</nav>
 
-								<!--<li><a href="https://2018.fluufff.org/index.php/links">Other conventions</a></li>-->
+								<!--<li><a href="/index.php/links">Other conventions</a></li>-->
 
 						</div>
 						<div class="col-md-5">
 					      <nav class="social-nav">
-					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="https://2018.fluufff.org/assets/style/images/twitter.svg"></a>
+					      	<a  target="_blank" href="https://twitter.com/FluufffCon" title="Twitter"><img alt="Twitter" src="/assets/style/images/twitter.svg"></a>
 					      &nbsp;&nbsp;
-					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="https://2018.fluufff.org/assets/style/images/furaffinity.png"></a>
+					      <a target="_blank" href="http://www.furaffinity.net/user/fluufff/" title="Furaffinity"><img alt="FurAffinity" src="/assets/style/images/furaffinity.png"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="https://2018.fluufff.org/assets/style/images/facebook.svg"></a>
+					      <a target="_blank" href="https://www.facebook.com/fluufff/" title="Facebook"><img alt="Facebook" src="/assets/style/images/facebook.svg"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="https://2018.fluufff.org/assets/style/images/furrynetwork.svg"></a>
+					      <a target="_blank" href="https://beta.furrynetwork.com/fluufff/" title="Furry Network"><img alt="FurryNetwork" src="/assets/style/images/furrynetwork.svg"></a>
 					      &nbsp;
-					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="https://2018.fluufff.org/assets/style/images/telegram.png"></a>
+					      <a target="_blank" href="https://web.telegram.org/#/im?p=@fluufff_announcements" title="Telegram"><img alt="Telegram" src="/assets/style/images/telegram.png"></a>
 					      </nav>
 
 					  </div>
@@ -1393,6 +1393,6 @@ Can I tell you a secret? I’ve got a secret identity
 		</div>
 		<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
 	</div>
-	<script src="https://2018.fluufff.org/assets/js/app.js"></script>
+	<script src="/assets/js/app.js"></script>
 </body>
 </html>
