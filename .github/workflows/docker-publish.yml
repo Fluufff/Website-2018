@@ -2,7 +2,7 @@ name: Build container
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 env:
   # Use docker.io for Docker Hub if empty
